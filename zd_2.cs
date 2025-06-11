@@ -41,25 +41,51 @@ namespace math_zadach
             {
                 listBox_output.Items.Clear();
 
-                if (!double.TryParse(textBox1.Text, out double x) ||
-                    !double.TryParse(textBox2.Text, out double y) ||
+                if (!double.TryParse(textBox1.Text, out double a) || 
+                    !double.TryParse(textBox2.Text, out double b) ||
                     !double.TryParse(textBox3.Text, out double step))
                 {
                     MessageBox.Show("Будь ласка, введіть коректні числові значення.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    textBox3.Clear();
+                    listBox_output.Items.Clear();
                     return;
                 }
+
+                if (a > b)
+                {
+                    MessageBox.Show("Початок діапазону (A) не може бути більшим за кінець (B).", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    textBox3.Clear();
+                    listBox_output.Items.Clear();
+                    return;
+                }
+
 
                 if (step <= 0)
                 {
                     MessageBox.Show("Крок повинен бути більше нуля.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    textBox3.Clear();
+                    listBox_output.Items.Clear();
                     return;
                 }
+                int negative_ch= 0;
 
-                for (double i = x; i <= y; i += step)
+                for (double x = a; x <= b; x += step)
                 {
-                    double result = Math.Cos(i) - 5;
-                    listBox_output.Items.Add($"x = {i:F2}, y = {result:F4}");
+                    double y = Math.Pow(x, 3) - 4 * x;
+                    listBox_output.Items.Add($"X = {x:F2}, Y = {y:F4}");
+
+                    if (y < 0)
+                        negative_ch++;
                 }
+
+                listBox_output.Items.Add($"---");
+                listBox_output.Items.Add($"Кількість від’ємних Y(X): {negative_ch}");
             }
         }
         private void кінецьToolStripMenuItem_Click(object sender, EventArgs e)

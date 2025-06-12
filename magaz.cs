@@ -21,5 +21,30 @@ namespace math_zadach
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void magaz_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void бровиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void маслоТаОліїДляОбличчяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

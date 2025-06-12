@@ -83,6 +83,16 @@ namespace math_zadach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_черв__2025_р___13_58_51_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT_Image_12_черв._2025_р.__13_58_51-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Знімок_екрана_2025_06_11_140730 {
             get {
                 object obj = ResourceManager.GetObject("Знімок екрана 2025-06-11 140730", resourceCulture);
@@ -96,6 +106,16 @@ namespace math_zadach.Properties {
         internal static System.Drawing.Bitmap Знімок_екрана_2025_06_11_140730_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Знімок_екрана_2025-06-11_140730-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2025_06_12_145039 {
+            get {
+                object obj = ResourceManager.GetObject("Знімок екрана 2025-06-12 145039", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

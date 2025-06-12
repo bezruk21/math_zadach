@@ -26,7 +26,7 @@ namespace math_zadach
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -36,7 +36,8 @@ namespace math_zadach
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            magaz form = new magaz();
+            form.ShowDialog();
         }
     }
 }

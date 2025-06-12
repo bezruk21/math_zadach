@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.IO;
+using static System.Windows.Forms.LinkLabel;
 
 namespace math_zadach
 {
@@ -74,19 +76,24 @@ namespace math_zadach
                     return;
                 }
                 int negative_ch= 0;
+                List<string> lines = new List<string>();
+
 
                 for (double x = a; x <= b; x += step)
                 {
                     double y = Math.Pow(x, 3) - 4 * x;
-                    listBox_output.Items.Add($"X = {x:F2}, Y = {y:F4}");
-
+                    string line = $"X = {x:F2}, Y = {y:F4}";
+                    lines.Add(line);
                     if (y < 0)
                         negative_ch++;
                 }
 
                 listBox_output.Items.Add($"---");
                 listBox_output.Items.Add($"Кількість від’ємних Y(X): {negative_ch}");
+                listBox_output.Items.AddRange(lines.ToArray());
+                File.WriteAllLines("output.txt", lines);
             }
+            MessageBox.Show("Результати збережено у файл output.txt", "Файл збережено", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void кінецьToolStripMenuItem_Click(object sender, EventArgs e)
         {

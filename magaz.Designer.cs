@@ -164,7 +164,6 @@
             lOrealParisToolStripMenuItem=new ToolStripMenuItem();
             esteeLauderToolStripMenuItem=new ToolStripMenuItem();
             chsnelToolStripMenuItem=new ToolStripMenuItem();
-            pictureBox2=new PictureBox();
             cristianDiorToolStripMenuItem=new ToolStripMenuItem();
             lancomeToolStripMenuItem=new ToolStripMenuItem();
             cliniqueToolStripMenuItem=new ToolStripMenuItem();
@@ -172,6 +171,7 @@
             ySLBeautyToolStripMenuItem=new ToolStripMenuItem();
             nARSToolStripMenuItem=new ToolStripMenuItem();
             charlotteTilberyToolStripMenuItem=new ToolStripMenuItem();
+            pictureBox2=new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -204,7 +204,7 @@
             toolStrip1.ImageScalingSize=new Size(20, 20);
             toolStrip1.Location=new Point(0, 633);
             toolStrip1.Name="toolStrip1";
-            toolStrip1.Size=new Size(1128, 25);
+            toolStrip1.Size=new Size(1126, 25);
             toolStrip1.TabIndex=2;
             toolStrip1.Text="toolStrip1";
             // 
@@ -1081,17 +1081,6 @@
             chsnelToolStripMenuItem.Size=new Size(226, 28);
             chsnelToolStripMenuItem.Text="Chanel";
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image=Properties.Resources.Знімок_екрана_2025_06_12_145039;
-            pictureBox2.Location=new Point(0, 183);
-            pictureBox2.Name="pictureBox2";
-            pictureBox2.Size=new Size(1128, 403);
-            pictureBox2.SizeMode=PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex=4;
-            pictureBox2.TabStop=false;
-            pictureBox2.Click+=pictureBox2_Click;
-            // 
             // cristianDiorToolStripMenuItem
             // 
             cristianDiorToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
@@ -1141,12 +1130,23 @@
             charlotteTilberyToolStripMenuItem.Size=new Size(226, 28);
             charlotteTilberyToolStripMenuItem.Text="Charlotte Tilbery";
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image=Properties.Resources.Знімок_екрана_2025_06_12_145039;
+            pictureBox2.Location=new Point(0, 183);
+            pictureBox2.Name="pictureBox2";
+            pictureBox2.Size=new Size(1128, 403);
+            pictureBox2.SizeMode=PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex=4;
+            pictureBox2.TabStop=false;
+            pictureBox2.Click+=pictureBox2_Click;
+            // 
             // magaz
             // 
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
             BackColor=SystemColors.Window;
-            ClientSize=new Size(1128, 658);
+            ClientSize=new Size(1126, 658);
             Controls.Add(button1);
             Controls.Add(pictureBox2);
             Controls.Add(toolStrip1);

@@ -26,7 +26,8 @@ namespace math_zadach
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            zd_3 form = new zd_3();
+            form.ShowDialog();
         }
 
         private void button4_Click(object sender, EventArgs e)

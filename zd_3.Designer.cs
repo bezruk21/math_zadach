@@ -38,7 +38,7 @@
             кінецьToolStripMenuItem=new ToolStripMenuItem();
             записатиВМасивToolStripMenuItem=new ToolStripMenuItem();
             label1=new Label();
-            textBox1=new TextBox();
+            textBox_dani=new TextBox();
             listBox1=new ListBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -58,18 +58,21 @@
             добутокToolStripMenuItem.Name="добутокToolStripMenuItem";
             добутокToolStripMenuItem.Size=new Size(200, 24);
             добутокToolStripMenuItem.Text="Сума додатних елементів";
+            добутокToolStripMenuItem.Click+=добутокToolStripMenuItem_Click;
             // 
             // мінімумСередНепарнихToolStripMenuItem
             // 
             мінімумСередНепарнихToolStripMenuItem.Name="мінімумСередНепарнихToolStripMenuItem";
             мінімумСередНепарнихToolStripMenuItem.Size=new Size(198, 24);
             мінімумСередНепарнихToolStripMenuItem.Text="Мінімум серед непарних";
+            мінімумСередНепарнихToolStripMenuItem.Click+=мінімумСередНепарнихToolStripMenuItem_Click;
             // 
             // індексиЕлементівУМежах1050ToolStripMenuItem
             // 
             індексиЕлементівУМежах1050ToolStripMenuItem.Name="індексиЕлементівУМежах1050ToolStripMenuItem";
             індексиЕлементівУМежах1050ToolStripMenuItem.Size=new Size(254, 24);
             індексиЕлементівУМежах1050ToolStripMenuItem.Text="Індекси елементів у межах 10...50";
+            індексиЕлементівУМежах1050ToolStripMenuItem.Click+=індексиЕлементівУМежах1050ToolStripMenuItem_Click;
             // 
             // toolStripMenuItem1
             // 
@@ -86,34 +89,38 @@
             очиститиToolStripMenuItem.Name="очиститиToolStripMenuItem";
             очиститиToolStripMenuItem.Size=new Size(88, 24);
             очиститиToolStripMenuItem.Text="Очистити";
+            очиститиToolStripMenuItem.Click+=очиститиToolStripMenuItem_Click;
             // 
             // кінецьToolStripMenuItem
             // 
             кінецьToolStripMenuItem.Name="кінецьToolStripMenuItem";
             кінецьToolStripMenuItem.Size=new Size(70, 24);
             кінецьToolStripMenuItem.Text="Кінець";
+            кінецьToolStripMenuItem.Click+=кінецьToolStripMenuItem_Click;
             // 
             // записатиВМасивToolStripMenuItem
             // 
             записатиВМасивToolStripMenuItem.Name="записатиВМасивToolStripMenuItem";
             записатиВМасивToolStripMenuItem.Size=new Size(146, 24);
             записатиВМасивToolStripMenuItem.Text="Записати в масив";
+            записатиВМасивToolStripMenuItem.Click+=записатиВМасивToolStripMenuItem_Click;
             // 
             // label1
             // 
             label1.AutoSize=true;
-            label1.Location=new Point(33, 71);
+            label1.Location=new Point(57, 137);
             label1.Name="label1";
             label1.Size=new Size(227, 20);
             label1.TabIndex=1;
             label1.Text="Введіть елементи через пробіл";
             // 
-            // textBox1
+            // textBox_dani
             // 
-            textBox1.Location=new Point(57, 175);
-            textBox1.Name="textBox1";
-            textBox1.Size=new Size(264, 27);
-            textBox1.TabIndex=2;
+            textBox_dani.Location=new Point(57, 175);
+            textBox_dani.Name="textBox_dani";
+            textBox_dani.Size=new Size(264, 27);
+            textBox_dani.TabIndex=2;
+            textBox_dani.TextChanged+=textBox_dani_TextChanged;
             // 
             // listBox1
             // 
@@ -123,6 +130,7 @@
             listBox1.Name="listBox1";
             listBox1.Size=new Size(544, 364);
             listBox1.TabIndex=3;
+            listBox1.SelectedIndexChanged+=listBox1_SelectedIndexChanged;
             // 
             // zd_3
             // 
@@ -130,12 +138,13 @@
             AutoScaleMode=AutoScaleMode.Font;
             ClientSize=new Size(1010, 565);
             Controls.Add(listBox1);
-            Controls.Add(textBox1);
+            Controls.Add(textBox_dani);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip=menuStrip1;
             Name="zd_3";
             Text="zd_3";
+            Load+=zd_3_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -154,7 +163,7 @@
         private ToolStripMenuItem кінецьToolStripMenuItem;
         private ToolStripMenuItem записатиВМасивToolStripMenuItem;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox textBox_dani;
         private ListBox listBox1;
     }
 }

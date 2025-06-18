@@ -46,11 +46,11 @@ namespace math_zadach
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            exit form = new exit();
-            if (form.ShowDialog() == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
+            //exit form = new exit();
+            //if (form.ShowDialog() == DialogResult.No)
+            //{
+            //    e.Cancel = true;
+            //}
         }
     }
 }

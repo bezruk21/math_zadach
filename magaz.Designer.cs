@@ -88,6 +88,7 @@
             дезодирантиАнтиперспірантиToolStripMenuItem=new ToolStripMenuItem();
             косметикаДляРукToolStripMenuItem=new ToolStripMenuItem();
             маскиІСкрабиToolStripMenuItem=new ToolStripMenuItem();
+            кремДляРукToolStripMenuItem=new ToolStripMenuItem();
             косметикаДляНігToolStripMenuItem=new ToolStripMenuItem();
             кремиІЛосьйониToolStripMenuItem1=new ToolStripMenuItem();
             маскиІСкрабиToolStripMenuItem1=new ToolStripMenuItem();
@@ -153,7 +154,6 @@
             button_sale1=new Button();
             button_sale2=new Button();
             button_sale3=new Button();
-            кремДляРукToolStripMenuItem=new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -280,12 +280,14 @@
             олівецьДляБрівToolStripMenuItem.Name="олівецьДляБрівToolStripMenuItem";
             олівецьДляБрівToolStripMenuItem.Size=new Size(231, 28);
             олівецьДляБрівToolStripMenuItem.Text="Олівець для брів";
+            олівецьДляБрівToolStripMenuItem.Click+=олівецьДляБрівToolStripMenuItem_Click;
             // 
             // гельДляБрівToolStripMenuItem
             // 
             гельДляБрівToolStripMenuItem.Name="гельДляБрівToolStripMenuItem";
             гельДляБрівToolStripMenuItem.Size=new Size(231, 28);
             гельДляБрівToolStripMenuItem.Text="Гель для брів";
+            гельДляБрівToolStripMenuItem.Click+=гельДляБрівToolStripMenuItem_Click;
             // 
             // губиToolStripMenuItem
             // 
@@ -310,8 +312,8 @@
             // контурнийОлівецьДляБрівToolStripMenuItem
             // 
             контурнийОлівецьДляБрівToolStripMenuItem.Name="контурнийОлівецьДляБрівToolStripMenuItem";
-            контурнийОлівецьДляБрівToolStripMenuItem.Size=new Size(319, 28);
-            контурнийОлівецьДляБрівToolStripMenuItem.Text="Контурний олівець для брів";
+            контурнийОлівецьДляБрівToolStripMenuItem.Size=new Size(312, 28);
+            контурнийОлівецьДляБрівToolStripMenuItem.Text="Контурний олівець для губ";
             // 
             // обличчяToolStripMenuItem1
             // 
@@ -576,8 +578,14 @@
             // маскиІСкрабиToolStripMenuItem
             // 
             маскиІСкрабиToolStripMenuItem.Name="маскиІСкрабиToolStripMenuItem";
-            маскиІСкрабиToolStripMenuItem.Size=new Size(224, 28);
+            маскиІСкрабиToolStripMenuItem.Size=new Size(216, 28);
             маскиІСкрабиToolStripMenuItem.Text="Маски і скраби";
+            // 
+            // кремДляРукToolStripMenuItem
+            // 
+            кремДляРукToolStripMenuItem.Name="кремДляРукToolStripMenuItem";
+            кремДляРукToolStripMenuItem.Size=new Size(216, 28);
+            кремДляРукToolStripMenuItem.Text="Крем для рук";
             // 
             // косметикаДляНігToolStripMenuItem
             // 
@@ -1099,12 +1107,6 @@
             button_sale3.Text="Купити";
             button_sale3.UseVisualStyleBackColor=false;
             button_sale3.Click+=button_sale3_Click;
-            // 
-            // кремДляРукToolStripMenuItem
-            // 
-            кремДляРукToolStripMenuItem.Name="кремДляРукToolStripMenuItem";
-            кремДляРукToolStripMenuItem.Size=new Size(224, 28);
-            кремДляРукToolStripMenuItem.Text="Крем для рук";
             // 
             // magaz
             // 

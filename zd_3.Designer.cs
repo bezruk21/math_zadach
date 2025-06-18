@@ -45,6 +45,7 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor=Color.LightSteelBlue;
             menuStrip1.ImageScalingSize=new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { добутокToolStripMenuItem, мінімумСередНепарнихToolStripMenuItem, індексиЕлементівУМежах1050ToolStripMenuItem, toolStripMenuItem1, toolStripMenuItem2, очиститиToolStripMenuItem, кінецьToolStripMenuItem, записатиВМасивToolStripMenuItem });
             menuStrip1.Location=new Point(0, 0);
@@ -108,14 +109,16 @@
             // label1
             // 
             label1.AutoSize=true;
+            label1.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label1.Location=new Point(57, 137);
             label1.Name="label1";
-            label1.Size=new Size(227, 20);
+            label1.Size=new Size(279, 23);
             label1.TabIndex=1;
             label1.Text="Введіть елементи через пробіл";
             // 
             // textBox_dani
             // 
+            textBox_dani.BackColor=Color.LightSteelBlue;
             textBox_dani.Location=new Point(57, 175);
             textBox_dani.Name="textBox_dani";
             textBox_dani.Size=new Size(264, 27);
@@ -124,6 +127,7 @@
             // 
             // listBox1
             // 
+            listBox1.BackColor=Color.SteelBlue;
             listBox1.FormattingEnabled=true;
             listBox1.ItemHeight=20;
             listBox1.Location=new Point(367, 52);
@@ -136,6 +140,7 @@
             // 
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
+            BackColor=Color.Azure;
             ClientSize=new Size(1010, 565);
             Controls.Add(listBox1);
             Controls.Add(textBox_dani);

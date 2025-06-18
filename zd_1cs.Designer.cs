@@ -47,9 +47,10 @@
             // label_radius
             // 
             label_radius.AutoSize=true;
+            label_radius.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label_radius.Location=new Point(12, 9);
             label_radius.Name="label_radius";
-            label_radius.Size=new Size(51, 20);
+            label_radius.Size=new Size(63, 23);
             label_radius.TabIndex=0;
             label_radius.Text="Радіус";
             label_radius.Click+=label_radius_Click;
@@ -57,23 +58,26 @@
             // label_a
             // 
             label_a.AutoSize=true;
+            label_a.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label_a.Location=new Point(12, 62);
             label_a.Name="label_a";
-            label_a.Size=new Size(18, 20);
+            label_a.Size=new Size(20, 23);
             label_a.TabIndex=1;
             label_a.Text="b";
             // 
             // label_h
             // 
             label_h.AutoSize=true;
+            label_h.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label_h.Location=new Point(12, 115);
             label_h.Name="label_h";
-            label_h.Size=new Size(17, 20);
+            label_h.Size=new Size(20, 23);
             label_h.TabIndex=2;
             label_h.Text="h";
             // 
             // textBox1
             // 
+            textBox1.BackColor=Color.LightSteelBlue;
             textBox1.Location=new Point(12, 32);
             textBox1.Name="textBox1";
             textBox1.Size=new Size(125, 27);
@@ -81,6 +85,7 @@
             // 
             // textBox2
             // 
+            textBox2.BackColor=Color.LightSteelBlue;
             textBox2.Location=new Point(12, 85);
             textBox2.Name="textBox2";
             textBox2.Size=new Size(125, 27);
@@ -88,6 +93,7 @@
             // 
             // textBox3
             // 
+            textBox3.BackColor=Color.LightSteelBlue;
             textBox3.Location=new Point(12, 138);
             textBox3.Name="textBox3";
             textBox3.Size=new Size(125, 27);
@@ -96,9 +102,10 @@
             // radioButton_area
             // 
             radioButton_area.AutoSize=true;
-            radioButton_area.Location=new Point(205, 32);
+            radioButton_area.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
+            radioButton_area.Location=new Point(166, 32);
             radioButton_area.Name="radioButton_area";
-            radioButton_area.Size=new Size(123, 24);
+            radioButton_area.Size=new Size(146, 27);
             radioButton_area.TabIndex=6;
             radioButton_area.TabStop=true;
             radioButton_area.Text="Площа круга ";
@@ -108,9 +115,10 @@
             // radioButton_volume
             // 
             radioButton_volume.AutoSize=true;
-            radioButton_volume.Location=new Point(205, 85);
+            radioButton_volume.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
+            radioButton_volume.Location=new Point(166, 85);
             radioButton_volume.Name="radioButton_volume";
-            radioButton_volume.Size=new Size(288, 24);
+            radioButton_volume.Size=new Size(351, 27);
             radioButton_volume.TabIndex=7;
             radioButton_volume.TabStop=true;
             radioButton_volume.Text="Об'єм прямокутного паралелепіпета";
@@ -120,9 +128,10 @@
             // radioButton_perimeter
             // 
             radioButton_perimeter.AutoSize=true;
-            radioButton_perimeter.Location=new Point(205, 138);
+            radioButton_perimeter.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
+            radioButton_perimeter.Location=new Point(166, 138);
             radioButton_perimeter.Name="radioButton_perimeter";
-            radioButton_perimeter.Size=new Size(204, 24);
+            radioButton_perimeter.Size=new Size(250, 27);
             radioButton_perimeter.TabIndex=8;
             radioButton_perimeter.TabStop=true;
             radioButton_perimeter.Text="Периметр прямокутника";
@@ -131,46 +140,54 @@
             // 
             // listBox_output
             // 
+            listBox_output.BackColor=Color.LightSteelBlue;
             listBox_output.FormattingEnabled=true;
             listBox_output.ItemHeight=20;
             listBox_output.Location=new Point(523, 12);
             listBox_output.Name="listBox_output";
-            listBox_output.Size=new Size(193, 224);
+            listBox_output.Size=new Size(193, 304);
             listBox_output.TabIndex=10;
             listBox_output.SelectedIndexChanged+=listBox_output_SelectedIndexChanged;
             // 
             // button_count
             // 
+            button_count.BackColor=Color.SteelBlue;
+            button_count.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             button_count.Location=new Point(12, 339);
             button_count.Name="button_count";
-            button_count.Size=new Size(94, 29);
+            button_count.Size=new Size(139, 29);
             button_count.TabIndex=11;
             button_count.Text="Обчислити";
-            button_count.UseVisualStyleBackColor=true;
+            button_count.UseVisualStyleBackColor=false;
             button_count.Click+=button_count_Click;
             // 
             // button2
             // 
-            button2.Location=new Point(205, 339);
+            button2.BackColor=Color.SteelBlue;
+            button2.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
+            button2.Location=new Point(310, 339);
             button2.Name="button2";
-            button2.Size=new Size(94, 29);
+            button2.Size=new Size(136, 29);
             button2.TabIndex=12;
             button2.Text="Очистити";
-            button2.UseVisualStyleBackColor=true;
+            button2.UseVisualStyleBackColor=false;
             button2.Click+=button2_Click;
             // 
             // button_return
             // 
-            button_return.Location=new Point(372, 339);
+            button_return.BackColor=Color.SteelBlue;
+            button_return.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
+            button_return.Location=new Point(580, 339);
             button_return.Name="button_return";
-            button_return.Size=new Size(125, 29);
+            button_return.Size=new Size(158, 29);
             button_return.TabIndex=13;
             button_return.Text="Повернутися";
-            button_return.UseVisualStyleBackColor=true;
+            button_return.UseVisualStyleBackColor=false;
             button_return.Click+=button_return_Click;
             // 
             // listBox_result
             // 
+            listBox_result.BackColor=Color.LightSteelBlue;
             listBox_result.FormattingEnabled=true;
             listBox_result.ItemHeight=20;
             listBox_result.Location=new Point(12, 193);
@@ -183,6 +200,7 @@
             // 
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
+            BackColor=Color.AliceBlue;
             ClientSize=new Size(750, 450);
             Controls.Add(listBox_result);
             Controls.Add(button_return);

@@ -46,12 +46,12 @@ namespace math_zadach
         {
             listBox_result.Items.Clear();
             listBox_output.Items.Clear();
-           
+
 
             double result = 0;
 
             if (radioButton_area.Checked)
-            { 
+            {
                 if (double.TryParse(textBox1.Text, out double radius)&&radius>0)
                 {
 
@@ -68,7 +68,7 @@ namespace math_zadach
             }
             else if (radioButton_volume.Checked)
             {
-               
+
                 if (double.TryParse(textBox1.Text, out double a) &&a>0&&
                     double.TryParse(textBox2.Text, out double b) &&b>0&&
                     double.TryParse(textBox3.Text, out double h)&&h>0)
@@ -85,11 +85,11 @@ namespace math_zadach
                 {
                     MessageBox.Show("Введіть правильні числа для a, b і h.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-              
+
             }
             else if (radioButton_perimeter.Checked)
             {
-               
+
                 if (double.TryParse(textBox2.Text, out double a) &&a>0&&
                     double.TryParse(textBox3.Text, out double b)&&b>0)
                 {
@@ -110,7 +110,7 @@ namespace math_zadach
                 MessageBox.Show("Оберіть одну з опцій обчислення.", "Попередження", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
-        
+
         }
 
         private void button_return_Click(object sender, EventArgs e)

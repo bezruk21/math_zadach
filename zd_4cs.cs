@@ -91,8 +91,8 @@ namespace math_zadach
             dataGridView1.Rows.Clear();
             dataGridView1.Columns.Clear();
             listBox_rezult.Items.Clear();
-            
-            
+
+
             arr = null;
             numericUpDown_line.Value = 0;
             numericUpDown_column.Value = 0;
@@ -107,5 +107,19 @@ namespace math_zadach
         private void numericUpDown_column_ValueChanged(object sender, EventArgs e) { }
         private void listBox_rezult_SelectedIndexChanged(object sender, EventArgs e) { }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
+
+        private void zd_4cs_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zd_4cs_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            exit form = new exit();
+            if (form.ShowDialog() == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }

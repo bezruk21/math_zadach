@@ -44,6 +44,7 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor=Color.LightSteelBlue;
             menuStrip1.ImageScalingSize=new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { протаблюватиToolStripMenuItem, очиститиToolStripMenuItem, кінецьToolStripMenuItem });
             menuStrip1.Location=new Point(0, 0);
@@ -77,18 +78,20 @@
             // label_x
             // 
             label_x.AutoSize=true;
+            label_x.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label_x.Location=new Point(40, 66);
             label_x.Name="label_x";
-            label_x.Size=new Size(18, 20);
+            label_x.Size=new Size(21, 23);
             label_x.TabIndex=1;
             label_x.Text="X";
             // 
             // label2
             // 
             label2.AutoSize=true;
+            label2.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label2.Location=new Point(40, 141);
             label2.Name="label2";
-            label2.Size=new Size(17, 20);
+            label2.Size=new Size(20, 23);
             label2.TabIndex=2;
             label2.Text="Y";
             label2.Click+=label2_Click;
@@ -96,21 +99,25 @@
             // label_krok
             // 
             label_krok.AutoSize=true;
+            label_krok.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label_krok.Location=new Point(40, 221);
             label_krok.Name="label_krok";
-            label_krok.Size=new Size(43, 20);
+            label_krok.Size=new Size(50, 23);
             label_krok.TabIndex=3;
             label_krok.Text="Крок";
             // 
             // textBox1
             // 
+            textBox1.BackColor=Color.LightSteelBlue;
             textBox1.Location=new Point(40, 89);
             textBox1.Name="textBox1";
             textBox1.Size=new Size(125, 27);
             textBox1.TabIndex=4;
+            textBox1.TextChanged+=textBox1_TextChanged;
             // 
             // textBox2
             // 
+            textBox2.BackColor=Color.LightSteelBlue;
             textBox2.Location=new Point(40, 164);
             textBox2.Name="textBox2";
             textBox2.Size=new Size(125, 27);
@@ -118,6 +125,7 @@
             // 
             // textBox3
             // 
+            textBox3.BackColor=Color.LightSteelBlue;
             textBox3.Location=new Point(40, 244);
             textBox3.Name="textBox3";
             textBox3.Size=new Size(125, 27);
@@ -125,6 +133,7 @@
             // 
             // listBox_output
             // 
+            listBox_output.BackColor=Color.SteelBlue;
             listBox_output.FormattingEnabled=true;
             listBox_output.ItemHeight=20;
             listBox_output.Location=new Point(201, 66);
@@ -137,7 +146,8 @@
             // 
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
-            ClientSize=new Size(479, 450);
+            BackColor=Color.Azure;
+            ClientSize=new Size(479, 399);
             Controls.Add(listBox_output);
             Controls.Add(textBox3);
             Controls.Add(textBox2);

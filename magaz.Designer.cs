@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components=new System.ComponentModel.Container();
-            button1=new Button();
+            button_detal=new Button();
             pictureBox1=new PictureBox();
             component11=new Component1(components);
             toolStrip1=new ToolStrip();
@@ -162,30 +162,39 @@
             стайлінгToolStripMenuItem=new ToolStripMenuItem();
             брендиToolStripMenuItem=new ToolStripMenuItem();
             lOrealParisToolStripMenuItem=new ToolStripMenuItem();
-            esteeLauderToolStripMenuItem=new ToolStripMenuItem();
             chsnelToolStripMenuItem=new ToolStripMenuItem();
             cristianDiorToolStripMenuItem=new ToolStripMenuItem();
             lancomeToolStripMenuItem=new ToolStripMenuItem();
-            cliniqueToolStripMenuItem=new ToolStripMenuItem();
             mACCosmeticsToolStripMenuItem=new ToolStripMenuItem();
             ySLBeautyToolStripMenuItem=new ToolStripMenuItem();
             nARSToolStripMenuItem=new ToolStripMenuItem();
             charlotteTilberyToolStripMenuItem=new ToolStripMenuItem();
+            giorgioArmaniToolStripMenuItem=new ToolStripMenuItem();
+            pradaToolStripMenuItem=new ToolStripMenuItem();
             pictureBox2=new PictureBox();
+            button_left=new Button();
+            button_right=new Button();
+            pictureBox_parfum1=new PictureBox();
+            pictureBox_parfum3=new PictureBox();
+            pictureBox_parfum2=new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_parfum1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_parfum3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_parfum2).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // button_detal
             // 
-            button1.Location=new Point(184, 504);
-            button1.Name="button1";
-            button1.Size=new Size(194, 42);
-            button1.TabIndex=0;
-            button1.Text="Детальніше";
-            button1.UseVisualStyleBackColor=true;
-            button1.Click+=button1_Click;
+            button_detal.Font=new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button_detal.Location=new Point(100, 519);
+            button_detal.Name="button_detal";
+            button_detal.Size=new Size(272, 52);
+            button_detal.TabIndex=0;
+            button_detal.Text="Детальніше";
+            button_detal.UseVisualStyleBackColor=true;
+            button_detal.Click+=button1_Click;
             // 
             // pictureBox1
             // 
@@ -233,6 +242,7 @@
             жіночаПарфумеріяToolStripMenuItem.Name="жіночаПарфумеріяToolStripMenuItem";
             жіночаПарфумеріяToolStripMenuItem.Size=new Size(271, 28);
             жіночаПарфумеріяToolStripMenuItem.Text="Жіноча парфумерія";
+            жіночаПарфумеріяToolStripMenuItem.Click+=жіночаПарфумеріяToolStripMenuItem_Click;
             // 
             // чоловічаПарфумеріяToolStripMenuItem
             // 
@@ -1054,7 +1064,7 @@
             // 
             // брендиToolStripMenuItem
             // 
-            брендиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { lOrealParisToolStripMenuItem, esteeLauderToolStripMenuItem, chsnelToolStripMenuItem, cristianDiorToolStripMenuItem, lancomeToolStripMenuItem, cliniqueToolStripMenuItem, mACCosmeticsToolStripMenuItem, ySLBeautyToolStripMenuItem, nARSToolStripMenuItem, charlotteTilberyToolStripMenuItem });
+            брендиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { lOrealParisToolStripMenuItem, chsnelToolStripMenuItem, cristianDiorToolStripMenuItem, lancomeToolStripMenuItem, mACCosmeticsToolStripMenuItem, ySLBeautyToolStripMenuItem, nARSToolStripMenuItem, charlotteTilberyToolStripMenuItem, giorgioArmaniToolStripMenuItem, pradaToolStripMenuItem });
             брендиToolStripMenuItem.Font=new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             брендиToolStripMenuItem.Name="брендиToolStripMenuItem";
             брендиToolStripMenuItem.Size=new Size(111, 36);
@@ -1066,13 +1076,6 @@
             lOrealParisToolStripMenuItem.Name="lOrealParisToolStripMenuItem";
             lOrealParisToolStripMenuItem.Size=new Size(226, 28);
             lOrealParisToolStripMenuItem.Text="L'Oreal Paris";
-            // 
-            // esteeLauderToolStripMenuItem
-            // 
-            esteeLauderToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            esteeLauderToolStripMenuItem.Name="esteeLauderToolStripMenuItem";
-            esteeLauderToolStripMenuItem.Size=new Size(226, 28);
-            esteeLauderToolStripMenuItem.Text="Estee Lauder";
             // 
             // chsnelToolStripMenuItem
             // 
@@ -1094,13 +1097,6 @@
             lancomeToolStripMenuItem.Name="lancomeToolStripMenuItem";
             lancomeToolStripMenuItem.Size=new Size(226, 28);
             lancomeToolStripMenuItem.Text="Lancome";
-            // 
-            // cliniqueToolStripMenuItem
-            // 
-            cliniqueToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            cliniqueToolStripMenuItem.Name="cliniqueToolStripMenuItem";
-            cliniqueToolStripMenuItem.Size=new Size(226, 28);
-            cliniqueToolStripMenuItem.Text="Clinique";
             // 
             // mACCosmeticsToolStripMenuItem
             // 
@@ -1130,16 +1126,84 @@
             charlotteTilberyToolStripMenuItem.Size=new Size(226, 28);
             charlotteTilberyToolStripMenuItem.Text="Charlotte Tilbery";
             // 
+            // giorgioArmaniToolStripMenuItem
+            // 
+            giorgioArmaniToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            giorgioArmaniToolStripMenuItem.Name="giorgioArmaniToolStripMenuItem";
+            giorgioArmaniToolStripMenuItem.Size=new Size(226, 28);
+            giorgioArmaniToolStripMenuItem.Text="Giorgio Armani";
+            // 
+            // pradaToolStripMenuItem
+            // 
+            pradaToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            pradaToolStripMenuItem.Name="pradaToolStripMenuItem";
+            pradaToolStripMenuItem.Size=new Size(226, 28);
+            pradaToolStripMenuItem.Text="Prada";
+            // 
             // pictureBox2
             // 
-            pictureBox2.Image=Properties.Resources.Знімок_екрана_2025_06_12_145039;
+            pictureBox2.Image=Properties.Resources._5_фото_на_основну;
             pictureBox2.Location=new Point(0, 183);
             pictureBox2.Name="pictureBox2";
-            pictureBox2.Size=new Size(1128, 403);
+            pictureBox2.Size=new Size(1128, 427);
             pictureBox2.SizeMode=PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex=4;
             pictureBox2.TabStop=false;
             pictureBox2.Click+=pictureBox2_Click;
+            // 
+            // button_left
+            // 
+            button_left.BackColor=Color.Transparent;
+            button_left.BackgroundImageLayout=ImageLayout.Zoom;
+            button_left.Font=new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            button_left.Location=new Point(0, 360);
+            button_left.Name="button_left";
+            button_left.Size=new Size(70, 105);
+            button_left.TabIndex=5;
+            button_left.Text="<-";
+            button_left.UseVisualStyleBackColor=false;
+            button_left.Click+=button_left_Click;
+            // 
+            // button_right
+            // 
+            button_right.Font=new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            button_right.Location=new Point(1062, 360);
+            button_right.Name="button_right";
+            button_right.Size=new Size(64, 105);
+            button_right.TabIndex=6;
+            button_right.Text=">";
+            button_right.UseVisualStyleBackColor=true;
+            button_right.Click+=button_right_Click;
+            // 
+            // pictureBox_parfum1
+            // 
+            pictureBox_parfum1.Image=Properties.Resources.ysl;
+            pictureBox_parfum1.Location=new Point(421, 211);
+            pictureBox_parfum1.Name="pictureBox_parfum1";
+            pictureBox_parfum1.Size=new Size(291, 278);
+            pictureBox_parfum1.SizeMode=PictureBoxSizeMode.StretchImage;
+            pictureBox_parfum1.TabIndex=7;
+            pictureBox_parfum1.TabStop=false;
+            // 
+            // pictureBox_parfum3
+            // 
+            pictureBox_parfum3.Image=Properties.Resources.версачі;
+            pictureBox_parfum3.Location=new Point(750, 211);
+            pictureBox_parfum3.Name="pictureBox_parfum3";
+            pictureBox_parfum3.Size=new Size(291, 278);
+            pictureBox_parfum3.SizeMode=PictureBoxSizeMode.StretchImage;
+            pictureBox_parfum3.TabIndex=8;
+            pictureBox_parfum3.TabStop=false;
+            // 
+            // pictureBox_parfum2
+            // 
+            pictureBox_parfum2.Image=Properties.Resources.прада;
+            pictureBox_parfum2.Location=new Point(100, 211);
+            pictureBox_parfum2.Name="pictureBox_parfum2";
+            pictureBox_parfum2.Size=new Size(291, 278);
+            pictureBox_parfum2.SizeMode=PictureBoxSizeMode.StretchImage;
+            pictureBox_parfum2.TabIndex=9;
+            pictureBox_parfum2.TabStop=false;
             // 
             // magaz
             // 
@@ -1147,24 +1211,33 @@
             AutoScaleMode=AutoScaleMode.Font;
             BackColor=SystemColors.Window;
             ClientSize=new Size(1126, 658);
-            Controls.Add(button1);
+            Controls.Add(pictureBox_parfum2);
+            Controls.Add(pictureBox_parfum3);
+            Controls.Add(pictureBox_parfum1);
+            Controls.Add(button_right);
+            Controls.Add(button_left);
+            Controls.Add(button_detal);
             Controls.Add(pictureBox2);
             Controls.Add(toolStrip1);
             Controls.Add(menuStrip1);
             Controls.Add(pictureBox1);
             Name="magaz";
             Text="magaz";
+            Load+=magaz_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_parfum1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_parfum3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_parfum2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
+        private Button button_detal;
         private PictureBox pictureBox1;
         private Component1 component11;
         private ToolStrip toolStrip1;
@@ -1298,14 +1371,19 @@
         private ToolStripMenuItem очтщенняТаЖивленняToolStripMenuItem;
         private ToolStripMenuItem стайлінгToolStripMenuItem;
         private ToolStripMenuItem lOrealParisToolStripMenuItem;
-        private ToolStripMenuItem esteeLauderToolStripMenuItem;
         private ToolStripMenuItem chsnelToolStripMenuItem;
         private ToolStripMenuItem cristianDiorToolStripMenuItem;
         private ToolStripMenuItem lancomeToolStripMenuItem;
-        private ToolStripMenuItem cliniqueToolStripMenuItem;
         private ToolStripMenuItem mACCosmeticsToolStripMenuItem;
         private ToolStripMenuItem ySLBeautyToolStripMenuItem;
         private ToolStripMenuItem nARSToolStripMenuItem;
         private ToolStripMenuItem charlotteTilberyToolStripMenuItem;
+        private Button button_left;
+        private Button button_right;
+        private ToolStripMenuItem giorgioArmaniToolStripMenuItem;
+        private ToolStripMenuItem pradaToolStripMenuItem;
+        private PictureBox pictureBox_parfum1;
+        private PictureBox pictureBox_parfum3;
+        private PictureBox pictureBox_parfum2;
     }
 }

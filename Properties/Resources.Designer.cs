@@ -63,6 +63,16 @@ namespace math_zadach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_фото_на_основну {
+            get {
+                object obj = ResourceManager.GetObject("1 фото на основну", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _16c22888_3356_4f48_bf51_01771c7224f0 {
             get {
                 object obj = ResourceManager.GetObject("16c22888-3356-4f48-bf51-01771c7224f0", resourceCulture);
@@ -83,9 +93,79 @@ namespace math_zadach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2_фото_на_основну {
+            get {
+                object obj = ResourceManager.GetObject("2 фото на основну", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3_фото_на_основну {
+            get {
+                object obj = ResourceManager.GetObject("3 фото на основну", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4_фото_на_основну {
+            get {
+                object obj = ResourceManager.GetObject("4 фото на основну", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5_фото_на_основну {
+            get {
+                object obj = ResourceManager.GetObject("5 фото на основну", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _Pngtree_vector_right_arrow_icon_4231911_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("_Pngtree_vector_right_arrow_icon_4231911-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ChatGPT_Image_12_черв__2025_р___13_58_51_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT_Image_12_черв._2025_р.__13_58_51-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ysl {
+            get {
+                object obj = ResourceManager.GetObject("ysl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap версачі {
+            get {
+                object obj = ResourceManager.GetObject("версачі", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +196,26 @@ namespace math_zadach.Properties {
         internal static System.Drawing.Bitmap Знімок_екрана_2025_06_12_145039 {
             get {
                 object obj = ResourceManager.GetObject("Знімок екрана 2025-06-12 145039", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2025_06_18_145153 {
+            get {
+                object obj = ResourceManager.GetObject("Знімок екрана 2025-06-18 145153", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap прада {
+            get {
+                object obj = ResourceManager.GetObject("прада", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

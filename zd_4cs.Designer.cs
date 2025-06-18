@@ -49,24 +49,26 @@
             // label1
             // 
             label1.AutoSize=true;
-            label1.Location=new Point(41, 64);
+            label1.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
+            label1.Location=new Point(17, 61);
             label1.Name="label1";
-            label1.Size=new Size(182, 20);
+            label1.Size=new Size(231, 23);
             label1.TabIndex=0;
             label1.Text="Виберіть кількість рядків";
             // 
             // label2
             // 
             label2.AutoSize=true;
-            label2.Location=new Point(41, 150);
+            label2.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
+            label2.Location=new Point(17, 153);
             label2.Name="label2";
-            label2.Size=new Size(198, 20);
+            label2.Size=new Size(255, 23);
             label2.TabIndex=1;
             label2.Text="Виберіть кількість стовбців";
             // 
             // numericUpDown_line
             // 
-            numericUpDown_line.Location=new Point(41, 87);
+            numericUpDown_line.Location=new Point(17, 87);
             numericUpDown_line.Name="numericUpDown_line";
             numericUpDown_line.Size=new Size(150, 27);
             numericUpDown_line.TabIndex=2;
@@ -74,7 +76,7 @@
             // 
             // numericUpDown_column
             // 
-            numericUpDown_column.Location=new Point(41, 163);
+            numericUpDown_column.Location=new Point(17, 179);
             numericUpDown_column.Name="numericUpDown_column";
             numericUpDown_column.Size=new Size(150, 27);
             numericUpDown_column.TabIndex=3;
@@ -82,16 +84,19 @@
             // 
             // listBox_rezult
             // 
+            listBox_rezult.BackColor=Color.SteelBlue;
+            listBox_rezult.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             listBox_rezult.FormattingEnabled=true;
-            listBox_rezult.ItemHeight=20;
-            listBox_rezult.Location=new Point(300, 42);
+            listBox_rezult.ItemHeight=23;
+            listBox_rezult.Location=new Point(299, 61);
             listBox_rezult.Name="listBox_rezult";
-            listBox_rezult.Size=new Size(526, 164);
+            listBox_rezult.Size=new Size(526, 142);
             listBox_rezult.TabIndex=4;
             listBox_rezult.SelectedIndexChanged+=listBox_rezult_SelectedIndexChanged;
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor=Color.LightSteelBlue;
             menuStrip1.ImageScalingSize=new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { середнєНаПобічнійДіагоналіToolStripMenuItem, сумаНижчеПобічноїДфагоналіToolStripMenuItem, очиститиToolStripMenuItem, кінецьToolStripMenuItem, додатиРядкиІСтовбціToolStripMenuItem });
             menuStrip1.Location=new Point(0, 0);
@@ -137,8 +142,9 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor=Color.LightSteelBlue;
             dataGridView1.ColumnHeadersHeightSizeMode=DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location=new Point(0, 247);
+            dataGridView1.Location=new Point(12, 247);
             dataGridView1.Name="dataGridView1";
             dataGridView1.RowHeadersWidth=51;
             dataGridView1.RowTemplate.Height=29;
@@ -150,6 +156,7 @@
             // 
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
+            BackColor=Color.Azure;
             ClientSize=new Size(850, 597);
             Controls.Add(dataGridView1);
             Controls.Add(listBox_rezult);
@@ -161,6 +168,8 @@
             MainMenuStrip=menuStrip1;
             Name="zd_4cs";
             Text="zd_4cs";
+            FormClosing+=zd_4cs_FormClosing;
+            Load+=zd_4cs_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown_line).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown_column).EndInit();
             menuStrip1.ResumeLayout(false);

@@ -43,7 +43,7 @@ namespace math_zadach
             {
                 listBox_output.Items.Clear();
 
-                if (!double.TryParse(textBox1.Text, out double a) || 
+                if (!double.TryParse(textBox1.Text, out double a) ||
                     !double.TryParse(textBox2.Text, out double b) ||
                     !double.TryParse(textBox3.Text, out double step))
                 {
@@ -75,7 +75,7 @@ namespace math_zadach
                     listBox_output.Items.Clear();
                     return;
                 }
-                int negative_ch= 0;
+                int negative_ch = 0;
                 List<string> lines = new List<string>();
 
 
@@ -101,6 +101,11 @@ namespace math_zadach
         }
 
         private void listBox_output_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -144,6 +144,7 @@
             MainMenuStrip=menuStrip1;
             Name="zd_3";
             Text="zd_3";
+            FormClosing+=zd_3_FormClosing;
             Load+=zd_3_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();

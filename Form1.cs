@@ -1,3 +1,5 @@
+using System;
+using System.Windows.Forms;
 namespace math_zadach
 {
     public partial class Form1 : Form
@@ -32,13 +34,23 @@ namespace math_zadach
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            zd_4cs form = new zd_4cs();
+            form.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             magaz form = new magaz();
             form.ShowDialog();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            exit form = new exit(); 
+            if (form.ShowDialog() == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

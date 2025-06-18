@@ -77,11 +77,11 @@
             // 
             // button5
             // 
-            button5.Location=new Point(277, 109);
+            button5.Location=new Point(280, 85);
             button5.Name="button5";
-            button5.Size=new Size(143, 60);
+            button5.Size=new Size(147, 107);
             button5.TabIndex=4;
-            button5.Text="Завдання 5";
+            button5.Text="інтерне-магазин одягу";
             button5.UseVisualStyleBackColor=true;
             button5.Click+=button5_Click;
             // 
@@ -98,6 +98,7 @@
             ForeColor=SystemColors.ControlText;
             Name="Form1";
             Text="Form1";
+            FormClosing+=Form1_FormClosing;
             Load+=Form1_Load;
             ResumeLayout(false);
         }

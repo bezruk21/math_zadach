@@ -67,7 +67,7 @@ namespace math_zadach
 
             for (int i = 0; i < ch.Count; i++)
             {
-  
+
                 if (((int)ch[i]) % 2 != 0)
                 {
                     if (!zn || ch[i] < min)
@@ -166,13 +166,22 @@ namespace math_zadach
                     MessageBox.Show("Помилка: '" + chas[i] + "' не є числом.");
                     return;
                 }
-                
+
             }
 
             listBox1.Items.Add("Елементи зчитано:");
             for (int j = 0; j < ch.Count; j++)
             {
                 listBox1.Items.Add(ch[j].ToString());
+            }
+        }
+
+        private void zd_3_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            exit form = new exit();
+            if (form.ShowDialog() == DialogResult.No)
+            {
+                e.Cancel = true;
             }
         }
     }

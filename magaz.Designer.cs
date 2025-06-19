@@ -56,15 +56,8 @@
             консилерToolStripMenuItem=new ToolStripMenuItem();
             пудраДляОблмччяToolStripMenuItem=new ToolStripMenuItem();
             тональнийКремToolStripMenuItem=new ToolStripMenuItem();
-            пензліToolStripMenuItem=new ToolStripMenuItem();
             обличчяToolStripMenuItem=new ToolStripMenuItem();
-            кремДляОбличчяToolStripMenuItem=new ToolStripMenuItem();
-            маскиДляОбличчяToolStripMenuItem=new ToolStripMenuItem();
-            сироваткиЕліксириToolStripMenuItem=new ToolStripMenuItem();
-            маслоТаОліїДляОбличчяToolStripMenuItem=new ToolStripMenuItem();
             очищенняToolStripMenuItem=new ToolStripMenuItem();
-            скрабиПілінгиToolStripMenuItem=new ToolStripMenuItem();
-            пінаДляОбличчяToolStripMenuItem=new ToolStripMenuItem();
             геліДляВмиванняToolStripMenuItem=new ToolStripMenuItem();
             міцелярнаВодаToolStripMenuItem=new ToolStripMenuItem();
             зволоженняToolStripMenuItem=new ToolStripMenuItem();
@@ -72,70 +65,35 @@
             захистВідСонцяToolStripMenuItem=new ToolStripMenuItem();
             волоссяToolStripMenuItem=new ToolStripMenuItem();
             ofvgeysToolStripMenuItem=new ToolStripMenuItem();
-            сухийШампуньToolStripMenuItem=new ToolStripMenuItem();
-            безсульфатніШампуніToolStripMenuItem=new ToolStripMenuItem();
             бальзамДляВолоссяToolStripMenuItem=new ToolStripMenuItem();
-            кондиціонерToolStripMenuItem=new ToolStripMenuItem();
             маскиДляВолоссяToolStripMenuItem=new ToolStripMenuItem();
-            скрабІПілінгДляШкіриГоловиToolStripMenuItem=new ToolStripMenuItem();
             оліяТаМаслоДляВолоссяToolStripMenuItem=new ToolStripMenuItem();
             тілоToolStripMenuItem=new ToolStripMenuItem();
             дЛяВаниТаДушуToolStripMenuItem=new ToolStripMenuItem();
-            геліЛосьйониМолочкоToolStripMenuItem=new ToolStripMenuItem();
-            скрабиТаПілінгиToolStripMenuItem=new ToolStripMenuItem();
-            пінаДляВанниToolStripMenuItem=new ToolStripMenuItem();
             депіляціяToolStripMenuItem=new ToolStripMenuItem();
-            дезодирантиАнтиперспірантиToolStripMenuItem=new ToolStripMenuItem();
             косметикаДляРукToolStripMenuItem=new ToolStripMenuItem();
-            маскиІСкрабиToolStripMenuItem=new ToolStripMenuItem();
-            кремДляРукToolStripMenuItem=new ToolStripMenuItem();
-            косметикаДляНігToolStripMenuItem=new ToolStripMenuItem();
-            кремиІЛосьйониToolStripMenuItem1=new ToolStripMenuItem();
-            маскиІСкрабиToolStripMenuItem1=new ToolStripMenuItem();
-            засобиДляМасажуToolStripMenuItem=new ToolStripMenuItem();
-            засобиДляЗасмагиToolStripMenuItem=new ToolStripMenuItem();
-            захистВідСонцяToolStripMenuItem1=new ToolStripMenuItem();
             здоровяІДоглядToolStripMenuItem=new ToolStripMenuItem();
             дерматокосметикаToolStripMenuItem=new ToolStripMenuItem();
-            косетикаДляВагітнихToolStripMenuItem=new ToolStripMenuItem();
-            дитячаКосметикаToolStripMenuItem=new ToolStripMenuItem();
             доглядЗаПорожниноюРотаToolStripMenuItem=new ToolStripMenuItem();
             зубнаЩіткаToolStripMenuItem=new ToolStripMenuItem();
-            зубнаНиткаToolStripMenuItem=new ToolStripMenuItem();
             пастиЗубнийПорошокІГеліToolStripMenuItem=new ToolStripMenuItem();
             ополіскувачДляПорожниниРотаToolStripMenuItem=new ToolStripMenuItem();
             чоловікамToolStripMenuItem=new ToolStripMenuItem();
             дезодирантиToolStripMenuItem=new ToolStripMenuItem();
             доглядЗаТіломТаОбличчямToolStripMenuItem=new ToolStripMenuItem();
             обличчяToolStripMenuItem2=new ToolStripMenuItem();
-            ногиToolStripMenuItem=new ToolStripMenuItem();
-            рукиToolStripMenuItem=new ToolStripMenuItem();
             тілоToolStripMenuItem1=new ToolStripMenuItem();
             доглядЗаБородоюToolStripMenuItem=new ToolStripMenuItem();
             засобиДляГолінняToolStripMenuItem=new ToolStripMenuItem();
             бритваToolStripMenuItem=new ToolStripMenuItem();
-            зміннаКасетаДляГоліннToolStripMenuItem=new ToolStripMenuItem();
             пінаДляБриттяToolStripMenuItem=new ToolStripMenuItem();
-            гельДляГолінняToolStripMenuItem=new ToolStripMenuItem();
-            кремДляГолінняToolStripMenuItem=new ToolStripMenuItem();
             засобиПісляГолінняToolStripMenuItem=new ToolStripMenuItem();
             гельПісляГолінняToolStripMenuItem=new ToolStripMenuItem();
-            бальзамПісляГолінняToolStripMenuItem=new ToolStripMenuItem();
-            кремПісляГолінняToolStripMenuItem=new ToolStripMenuItem();
             доглядЗаВолоссямToolStripMenuItem=new ToolStripMenuItem();
-            очтщенняТаЖивленняToolStripMenuItem=new ToolStripMenuItem();
-            стайлінгToolStripMenuItem=new ToolStripMenuItem();
             брендиToolStripMenuItem=new ToolStripMenuItem();
-            lOrealParisToolStripMenuItem=new ToolStripMenuItem();
             chsnelToolStripMenuItem=new ToolStripMenuItem();
             cristianDiorToolStripMenuItem=new ToolStripMenuItem();
-            lancomeToolStripMenuItem=new ToolStripMenuItem();
-            mACCosmeticsToolStripMenuItem=new ToolStripMenuItem();
             ySLBeautyToolStripMenuItem=new ToolStripMenuItem();
-            nARSToolStripMenuItem=new ToolStripMenuItem();
-            charlotteTilberyToolStripMenuItem=new ToolStripMenuItem();
-            giorgioArmaniToolStripMenuItem=new ToolStripMenuItem();
-            pradaToolStripMenuItem=new ToolStripMenuItem();
             pictureBox2=new PictureBox();
             button_left=new Button();
             button_right=new Button();
@@ -154,12 +112,17 @@
             button_sale1=new Button();
             button_sale2=new Button();
             button_sale3=new Button();
+            button_sale=new Button();
+            pictureBox3=new PictureBox();
+            lAMELToolStripMenuItem=new ToolStripMenuItem();
+            nYXToolStripMenuItem=new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_parfum1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_parfum3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_parfum2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // button_detal
@@ -201,7 +164,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { парфумеріяToolStripMenuItem, макіяжToolStripMenuItem, обличчяToolStripMenuItem, волоссяToolStripMenuItem, тілоToolStripMenuItem, здоровяІДоглядToolStripMenuItem, чоловікамToolStripMenuItem, брендиToolStripMenuItem });
             menuStrip1.Location=new Point(0, 140);
             menuStrip1.Name="menuStrip1";
-            menuStrip1.Size=new Size(1099, 40);
+            menuStrip1.Size=new Size(1249, 40);
             menuStrip1.TabIndex=3;
             menuStrip1.Text="menuStrip1";
             // 
@@ -231,7 +194,7 @@
             // 
             // макіяжToolStripMenuItem
             // 
-            макіяжToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { оЧіToolStripMenuItem, бровиToolStripMenuItem, губиToolStripMenuItem, обличчяToolStripMenuItem1, пензліToolStripMenuItem });
+            макіяжToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { оЧіToolStripMenuItem, бровиToolStripMenuItem, губиToolStripMenuItem, обличчяToolStripMenuItem1 });
             макіяжToolStripMenuItem.Font=new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             макіяжToolStripMenuItem.Name="макіяжToolStripMenuItem";
             макіяжToolStripMenuItem.Size=new Size(115, 36);
@@ -242,7 +205,7 @@
             оЧіToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { тушДляВійToolStripMenuItem, тініДляПовікToolStripMenuItem, підводкаДляОчейToolStripMenuItem });
             оЧіToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             оЧіToolStripMenuItem.Name="оЧіToolStripMenuItem";
-            оЧіToolStripMenuItem.Size=new Size(170, 28);
+            оЧіToolStripMenuItem.Size=new Size(224, 28);
             оЧіToolStripMenuItem.Text="Очі";
             // 
             // тушДляВійToolStripMenuItem
@@ -271,7 +234,7 @@
             бровиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { олівецьДляБрівToolStripMenuItem, гельДляБрівToolStripMenuItem });
             бровиToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             бровиToolStripMenuItem.Name="бровиToolStripMenuItem";
-            бровиToolStripMenuItem.Size=new Size(170, 28);
+            бровиToolStripMenuItem.Size=new Size(224, 28);
             бровиToolStripMenuItem.Text="Брови";
             бровиToolStripMenuItem.Click+=бровиToolStripMenuItem_Click;
             // 
@@ -294,7 +257,7 @@
             губиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { попмадаДляГубToolStripMenuItem, блискДляГубToolStripMenuItem, контурнийОлівецьДляБрівToolStripMenuItem });
             губиToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             губиToolStripMenuItem.Name="губиToolStripMenuItem";
-            губиToolStripMenuItem.Size=new Size(170, 28);
+            губиToolStripMenuItem.Size=new Size(224, 28);
             губиToolStripMenuItem.Text="Губи";
             // 
             // попмадаДляГубToolStripMenuItem
@@ -323,7 +286,7 @@
             обличчяToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { руянаToolStripMenuItem, бронзерToolStripMenuItem, хайлайтерToolStripMenuItem, консилерToolStripMenuItem, пудраДляОблмччяToolStripMenuItem, тональнийКремToolStripMenuItem });
             обличчяToolStripMenuItem1.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             обличчяToolStripMenuItem1.Name="обличчяToolStripMenuItem1";
-            обличчяToolStripMenuItem1.Size=new Size(170, 28);
+            обличчяToolStripMenuItem1.Size=new Size(224, 28);
             обличчяToolStripMenuItem1.Text="Обличчя";
             // 
             // руянаToolStripMenuItem
@@ -368,106 +331,63 @@
             тональнийКремToolStripMenuItem.Text="Тональний крем";
             тональнийКремToolStripMenuItem.Click+=тональнийКремToolStripMenuItem_Click;
             // 
-            // пензліToolStripMenuItem
-            // 
-            пензліToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            пензліToolStripMenuItem.Name="пензліToolStripMenuItem";
-            пензліToolStripMenuItem.Size=new Size(170, 28);
-            пензліToolStripMenuItem.Text="Пензлі";
-            // 
             // обличчяToolStripMenuItem
             // 
-            обличчяToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { кремДляОбличчяToolStripMenuItem, маскиДляОбличчяToolStripMenuItem, сироваткиЕліксириToolStripMenuItem, маслоТаОліїДляОбличчяToolStripMenuItem, очищенняToolStripMenuItem, зволоженняToolStripMenuItem, живленняToolStripMenuItem, захистВідСонцяToolStripMenuItem });
+            обличчяToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { очищенняToolStripMenuItem, зволоженняToolStripMenuItem, живленняToolStripMenuItem, захистВідСонцяToolStripMenuItem });
             обличчяToolStripMenuItem.Font=new Font("Segoe UI", 14.2F, FontStyle.Bold, GraphicsUnit.Point);
             обличчяToolStripMenuItem.Name="обличчяToolStripMenuItem";
             обличчяToolStripMenuItem.Size=new Size(132, 36);
             обличчяToolStripMenuItem.Text="Обличчя";
             // 
-            // кремДляОбличчяToolStripMenuItem
-            // 
-            кремДляОбличчяToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            кремДляОбличчяToolStripMenuItem.Name="кремДляОбличчяToolStripMenuItem";
-            кремДляОбличчяToolStripMenuItem.Size=new Size(318, 28);
-            кремДляОбличчяToolStripMenuItem.Text="Крем для обличчя";
-            // 
-            // маскиДляОбличчяToolStripMenuItem
-            // 
-            маскиДляОбличчяToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            маскиДляОбличчяToolStripMenuItem.Name="маскиДляОбличчяToolStripMenuItem";
-            маскиДляОбличчяToolStripMenuItem.Size=new Size(318, 28);
-            маскиДляОбличчяToolStripMenuItem.Text="Маски для обличчя";
-            // 
-            // сироваткиЕліксириToolStripMenuItem
-            // 
-            сироваткиЕліксириToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            сироваткиЕліксириToolStripMenuItem.Name="сироваткиЕліксириToolStripMenuItem";
-            сироваткиЕліксириToolStripMenuItem.Size=new Size(318, 28);
-            сироваткиЕліксириToolStripMenuItem.Text="Сироватки, еліксири";
-            // 
-            // маслоТаОліїДляОбличчяToolStripMenuItem
-            // 
-            маслоТаОліїДляОбличчяToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            маслоТаОліїДляОбличчяToolStripMenuItem.Name="маслоТаОліїДляОбличчяToolStripMenuItem";
-            маслоТаОліїДляОбличчяToolStripMenuItem.Size=new Size(318, 28);
-            маслоТаОліїДляОбличчяToolStripMenuItem.Text="Масло та олія для обличчя";
-            маслоТаОліїДляОбличчяToolStripMenuItem.Click+=маслоТаОліїДляОбличчяToolStripMenuItem_Click;
-            // 
             // очищенняToolStripMenuItem
             // 
-            очищенняToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { скрабиПілінгиToolStripMenuItem, пінаДляОбличчяToolStripMenuItem, геліДляВмиванняToolStripMenuItem, міцелярнаВодаToolStripMenuItem });
+            очищенняToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { геліДляВмиванняToolStripMenuItem, міцелярнаВодаToolStripMenuItem });
             очищенняToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             очищенняToolStripMenuItem.Name="очищенняToolStripMenuItem";
-            очищенняToolStripMenuItem.Size=new Size(318, 28);
+            очищенняToolStripMenuItem.Size=new Size(231, 28);
             очищенняToolStripMenuItem.Text="Очищення";
-            // 
-            // скрабиПілінгиToolStripMenuItem
-            // 
-            скрабиПілінгиToolStripMenuItem.Name="скрабиПілінгиToolStripMenuItem";
-            скрабиПілінгиToolStripMenuItem.Size=new Size(241, 28);
-            скрабиПілінгиToolStripMenuItem.Text="Скраби, пілінги";
-            // 
-            // пінаДляОбличчяToolStripMenuItem
-            // 
-            пінаДляОбличчяToolStripMenuItem.Name="пінаДляОбличчяToolStripMenuItem";
-            пінаДляОбличчяToolStripMenuItem.Size=new Size(241, 28);
-            пінаДляОбличчяToolStripMenuItem.Text="Піна для обличчя";
             // 
             // геліДляВмиванняToolStripMenuItem
             // 
             геліДляВмиванняToolStripMenuItem.Name="геліДляВмиванняToolStripMenuItem";
             геліДляВмиванняToolStripMenuItem.Size=new Size(241, 28);
             геліДляВмиванняToolStripMenuItem.Text="Гелі для вмивання";
+            геліДляВмиванняToolStripMenuItem.Click+=геліДляВмиванняToolStripMenuItem_Click;
             // 
             // міцелярнаВодаToolStripMenuItem
             // 
             міцелярнаВодаToolStripMenuItem.Name="міцелярнаВодаToolStripMenuItem";
             міцелярнаВодаToolStripMenuItem.Size=new Size(241, 28);
             міцелярнаВодаToolStripMenuItem.Text="Міцелярна вода";
+            міцелярнаВодаToolStripMenuItem.Click+=міцелярнаВодаToolStripMenuItem_Click;
             // 
             // зволоженняToolStripMenuItem
             // 
             зволоженняToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             зволоженняToolStripMenuItem.Name="зволоженняToolStripMenuItem";
-            зволоженняToolStripMenuItem.Size=new Size(318, 28);
+            зволоженняToolStripMenuItem.Size=new Size(231, 28);
             зволоженняToolStripMenuItem.Text="Зволоження";
+            зволоженняToolStripMenuItem.Click+=зволоженняToolStripMenuItem_Click;
             // 
             // живленняToolStripMenuItem
             // 
             живленняToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             живленняToolStripMenuItem.Name="живленняToolStripMenuItem";
-            живленняToolStripMenuItem.Size=new Size(318, 28);
+            живленняToolStripMenuItem.Size=new Size(231, 28);
             живленняToolStripMenuItem.Text="Живлення";
+            живленняToolStripMenuItem.Click+=живленняToolStripMenuItem_Click;
             // 
             // захистВідСонцяToolStripMenuItem
             // 
             захистВідСонцяToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             захистВідСонцяToolStripMenuItem.Name="захистВідСонцяToolStripMenuItem";
-            захистВідСонцяToolStripMenuItem.Size=new Size(318, 28);
+            захистВідСонцяToolStripMenuItem.Size=new Size(231, 28);
             захистВідСонцяToolStripMenuItem.Text="Захист від сонця";
+            захистВідСонцяToolStripMenuItem.Click+=захистВідСонцяToolStripMenuItem_Click;
             // 
             // волоссяToolStripMenuItem
             // 
-            волоссяToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ofvgeysToolStripMenuItem, бальзамДляВолоссяToolStripMenuItem, кондиціонерToolStripMenuItem, маскиДляВолоссяToolStripMenuItem, скрабІПілінгДляШкіриГоловиToolStripMenuItem, оліяТаМаслоДляВолоссяToolStripMenuItem });
+            волоссяToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ofvgeysToolStripMenuItem, бальзамДляВолоссяToolStripMenuItem, маскиДляВолоссяToolStripMenuItem, оліяТаМаслоДляВолоссяToolStripMenuItem });
             волоссяToolStripMenuItem.Font=new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             волоссяToolStripMenuItem.Name="волоссяToolStripMenuItem";
             волоссяToolStripMenuItem.Size=new Size(120, 36);
@@ -475,62 +395,39 @@
             // 
             // ofvgeysToolStripMenuItem
             // 
-            ofvgeysToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { сухийШампуньToolStripMenuItem, безсульфатніШампуніToolStripMenuItem });
             ofvgeysToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             ofvgeysToolStripMenuItem.Name="ofvgeysToolStripMenuItem";
-            ofvgeysToolStripMenuItem.Size=new Size(353, 28);
+            ofvgeysToolStripMenuItem.Size=new Size(313, 28);
             ofvgeysToolStripMenuItem.Text="Шампуні";
-            // 
-            // сухийШампуньToolStripMenuItem
-            // 
-            сухийШампуньToolStripMenuItem.Name="сухийШампуньToolStripMenuItem";
-            сухийШампуньToolStripMenuItem.Size=new Size(272, 28);
-            сухийШампуньToolStripMenuItem.Text="Сухий шампунь";
-            // 
-            // безсульфатніШампуніToolStripMenuItem
-            // 
-            безсульфатніШампуніToolStripMenuItem.Name="безсульфатніШампуніToolStripMenuItem";
-            безсульфатніШампуніToolStripMenuItem.Size=new Size(272, 28);
-            безсульфатніШампуніToolStripMenuItem.Text="Безсульфатні шампуні";
+            ofvgeysToolStripMenuItem.Click+=ofvgeysToolStripMenuItem_Click;
             // 
             // бальзамДляВолоссяToolStripMenuItem
             // 
             бальзамДляВолоссяToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             бальзамДляВолоссяToolStripMenuItem.Name="бальзамДляВолоссяToolStripMenuItem";
-            бальзамДляВолоссяToolStripMenuItem.Size=new Size(353, 28);
+            бальзамДляВолоссяToolStripMenuItem.Size=new Size(313, 28);
             бальзамДляВолоссяToolStripMenuItem.Text="Бальзам для волосся";
-            // 
-            // кондиціонерToolStripMenuItem
-            // 
-            кондиціонерToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            кондиціонерToolStripMenuItem.Name="кондиціонерToolStripMenuItem";
-            кондиціонерToolStripMenuItem.Size=new Size(353, 28);
-            кондиціонерToolStripMenuItem.Text="Кондиціонер";
+            бальзамДляВолоссяToolStripMenuItem.Click+=бальзамДляВолоссяToolStripMenuItem_Click;
             // 
             // маскиДляВолоссяToolStripMenuItem
             // 
             маскиДляВолоссяToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             маскиДляВолоссяToolStripMenuItem.Name="маскиДляВолоссяToolStripMenuItem";
-            маскиДляВолоссяToolStripMenuItem.Size=new Size(353, 28);
+            маскиДляВолоссяToolStripMenuItem.Size=new Size(313, 28);
             маскиДляВолоссяToolStripMenuItem.Text="Маски для волосся";
-            // 
-            // скрабІПілінгДляШкіриГоловиToolStripMenuItem
-            // 
-            скрабІПілінгДляШкіриГоловиToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            скрабІПілінгДляШкіриГоловиToolStripMenuItem.Name="скрабІПілінгДляШкіриГоловиToolStripMenuItem";
-            скрабІПілінгДляШкіриГоловиToolStripMenuItem.Size=new Size(353, 28);
-            скрабІПілінгДляШкіриГоловиToolStripMenuItem.Text="Скраб і пілінг для шкіри голови";
+            маскиДляВолоссяToolStripMenuItem.Click+=маскиДляВолоссяToolStripMenuItem_Click;
             // 
             // оліяТаМаслоДляВолоссяToolStripMenuItem
             // 
             оліяТаМаслоДляВолоссяToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             оліяТаМаслоДляВолоссяToolStripMenuItem.Name="оліяТаМаслоДляВолоссяToolStripMenuItem";
-            оліяТаМаслоДляВолоссяToolStripMenuItem.Size=new Size(353, 28);
+            оліяТаМаслоДляВолоссяToolStripMenuItem.Size=new Size(313, 28);
             оліяТаМаслоДляВолоссяToolStripMenuItem.Text="Олія та масло для волосся";
+            оліяТаМаслоДляВолоссяToolStripMenuItem.Click+=оліяТаМаслоДляВолоссяToolStripMenuItem_Click;
             // 
             // тілоToolStripMenuItem
             // 
-            тілоToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { дЛяВаниТаДушуToolStripMenuItem, депіляціяToolStripMenuItem, дезодирантиАнтиперспірантиToolStripMenuItem, косметикаДляРукToolStripMenuItem, косметикаДляНігToolStripMenuItem, засобиДляМасажуToolStripMenuItem, засобиДляЗасмагиToolStripMenuItem, захистВідСонцяToolStripMenuItem1 });
+            тілоToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { дЛяВаниТаДушуToolStripMenuItem, депіляціяToolStripMenuItem, косметикаДляРукToolStripMenuItem });
             тілоToolStripMenuItem.Font=new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             тілоToolStripMenuItem.Name="тілоToolStripMenuItem";
             тілоToolStripMenuItem.Size=new Size(76, 36);
@@ -538,108 +435,31 @@
             // 
             // дЛяВаниТаДушуToolStripMenuItem
             // 
-            дЛяВаниТаДушуToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { геліЛосьйониМолочкоToolStripMenuItem, скрабиТаПілінгиToolStripMenuItem, пінаДляВанниToolStripMenuItem });
             дЛяВаниТаДушуToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             дЛяВаниТаДушуToolStripMenuItem.Name="дЛяВаниТаДушуToolStripMenuItem";
-            дЛяВаниТаДушуToolStripMenuItem.Size=new Size(345, 28);
+            дЛяВаниТаДушуToolStripMenuItem.Size=new Size(250, 28);
             дЛяВаниТаДушуToolStripMenuItem.Text="Для вани та душу";
-            // 
-            // геліЛосьйониМолочкоToolStripMenuItem
-            // 
-            геліЛосьйониМолочкоToolStripMenuItem.Name="геліЛосьйониМолочкоToolStripMenuItem";
-            геліЛосьйониМолочкоToolStripMenuItem.Size=new Size(290, 28);
-            геліЛосьйониМолочкоToolStripMenuItem.Text="Гелі, лосьйони, молочко";
-            // 
-            // скрабиТаПілінгиToolStripMenuItem
-            // 
-            скрабиТаПілінгиToolStripMenuItem.Name="скрабиТаПілінгиToolStripMenuItem";
-            скрабиТаПілінгиToolStripMenuItem.Size=new Size(290, 28);
-            скрабиТаПілінгиToolStripMenuItem.Text="Скраби та пілінги";
-            // 
-            // пінаДляВанниToolStripMenuItem
-            // 
-            пінаДляВанниToolStripMenuItem.Name="пінаДляВанниToolStripMenuItem";
-            пінаДляВанниToolStripMenuItem.Size=new Size(290, 28);
-            пінаДляВанниToolStripMenuItem.Text="Піна для ванни";
+            дЛяВаниТаДушуToolStripMenuItem.Click+=дЛяВаниТаДушуToolStripMenuItem_Click;
             // 
             // депіляціяToolStripMenuItem
             // 
             депіляціяToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             депіляціяToolStripMenuItem.Name="депіляціяToolStripMenuItem";
-            депіляціяToolStripMenuItem.Size=new Size(345, 28);
+            депіляціяToolStripMenuItem.Size=new Size(250, 28);
             депіляціяToolStripMenuItem.Text="Депіляція";
-            // 
-            // дезодирантиАнтиперспірантиToolStripMenuItem
-            // 
-            дезодирантиАнтиперспірантиToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            дезодирантиАнтиперспірантиToolStripMenuItem.Name="дезодирантиАнтиперспірантиToolStripMenuItem";
-            дезодирантиАнтиперспірантиToolStripMenuItem.Size=new Size(345, 28);
-            дезодирантиАнтиперспірантиToolStripMenuItem.Text="Дезодиранти, антиперспіранти";
+            депіляціяToolStripMenuItem.Click+=депіляціяToolStripMenuItem_Click;
             // 
             // косметикаДляРукToolStripMenuItem
             // 
-            косметикаДляРукToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { маскиІСкрабиToolStripMenuItem, кремДляРукToolStripMenuItem });
             косметикаДляРукToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             косметикаДляРукToolStripMenuItem.Name="косметикаДляРукToolStripMenuItem";
-            косметикаДляРукToolStripMenuItem.Size=new Size(345, 28);
+            косметикаДляРукToolStripMenuItem.Size=new Size(250, 28);
             косметикаДляРукToolStripMenuItem.Text="Косметика для рук";
-            // 
-            // маскиІСкрабиToolStripMenuItem
-            // 
-            маскиІСкрабиToolStripMenuItem.Name="маскиІСкрабиToolStripMenuItem";
-            маскиІСкрабиToolStripMenuItem.Size=new Size(216, 28);
-            маскиІСкрабиToolStripMenuItem.Text="Маски і скраби";
-            // 
-            // кремДляРукToolStripMenuItem
-            // 
-            кремДляРукToolStripMenuItem.Name="кремДляРукToolStripMenuItem";
-            кремДляРукToolStripMenuItem.Size=new Size(216, 28);
-            кремДляРукToolStripMenuItem.Text="Крем для рук";
-            // 
-            // косметикаДляНігToolStripMenuItem
-            // 
-            косметикаДляНігToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { кремиІЛосьйониToolStripMenuItem1, маскиІСкрабиToolStripMenuItem1 });
-            косметикаДляНігToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            косметикаДляНігToolStripMenuItem.Name="косметикаДляНігToolStripMenuItem";
-            косметикаДляНігToolStripMenuItem.Size=new Size(345, 28);
-            косметикаДляНігToolStripMenuItem.Text="Косметика для ніг";
-            // 
-            // кремиІЛосьйониToolStripMenuItem1
-            // 
-            кремиІЛосьйониToolStripMenuItem1.Name="кремиІЛосьйониToolStripMenuItem1";
-            кремиІЛосьйониToolStripMenuItem1.Size=new Size(237, 28);
-            кремиІЛосьйониToolStripMenuItem1.Text="Креми і лосьйони";
-            // 
-            // маскиІСкрабиToolStripMenuItem1
-            // 
-            маскиІСкрабиToolStripMenuItem1.Name="маскиІСкрабиToolStripMenuItem1";
-            маскиІСкрабиToolStripMenuItem1.Size=new Size(237, 28);
-            маскиІСкрабиToolStripMenuItem1.Text="Маски і скраби";
-            // 
-            // засобиДляМасажуToolStripMenuItem
-            // 
-            засобиДляМасажуToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            засобиДляМасажуToolStripMenuItem.Name="засобиДляМасажуToolStripMenuItem";
-            засобиДляМасажуToolStripMenuItem.Size=new Size(345, 28);
-            засобиДляМасажуToolStripMenuItem.Text="Засоби для масажу";
-            // 
-            // засобиДляЗасмагиToolStripMenuItem
-            // 
-            засобиДляЗасмагиToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            засобиДляЗасмагиToolStripMenuItem.Name="засобиДляЗасмагиToolStripMenuItem";
-            засобиДляЗасмагиToolStripMenuItem.Size=new Size(345, 28);
-            засобиДляЗасмагиToolStripMenuItem.Text="Засоби для засмаги";
-            // 
-            // захистВідСонцяToolStripMenuItem1
-            // 
-            захистВідСонцяToolStripMenuItem1.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            захистВідСонцяToolStripMenuItem1.Name="захистВідСонцяToolStripMenuItem1";
-            захистВідСонцяToolStripMenuItem1.Size=new Size(345, 28);
-            захистВідСонцяToolStripMenuItem1.Text="Захист від сонця";
+            косметикаДляРукToolStripMenuItem.Click+=косметикаДляРукToolStripMenuItem_Click;
             // 
             // здоровяІДоглядToolStripMenuItem
             // 
-            здоровяІДоглядToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { дерматокосметикаToolStripMenuItem, косетикаДляВагітнихToolStripMenuItem, дитячаКосметикаToolStripMenuItem, доглядЗаПорожниноюРотаToolStripMenuItem });
+            здоровяІДоглядToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { дерматокосметикаToolStripMenuItem, доглядЗаПорожниноюРотаToolStripMenuItem });
             здоровяІДоглядToolStripMenuItem.Font=new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             здоровяІДоглядToolStripMenuItem.Name="здоровяІДоглядToolStripMenuItem";
             здоровяІДоглядToolStripMenuItem.Size=new Size(226, 36);
@@ -651,24 +471,11 @@
             дерматокосметикаToolStripMenuItem.Name="дерматокосметикаToolStripMenuItem";
             дерматокосметикаToolStripMenuItem.Size=new Size(330, 28);
             дерматокосметикаToolStripMenuItem.Text="Дерматокосметика";
-            // 
-            // косетикаДляВагітнихToolStripMenuItem
-            // 
-            косетикаДляВагітнихToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            косетикаДляВагітнихToolStripMenuItem.Name="косетикаДляВагітнихToolStripMenuItem";
-            косетикаДляВагітнихToolStripMenuItem.Size=new Size(330, 28);
-            косетикаДляВагітнихToolStripMenuItem.Text="Косетика для вагітних";
-            // 
-            // дитячаКосметикаToolStripMenuItem
-            // 
-            дитячаКосметикаToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            дитячаКосметикаToolStripMenuItem.Name="дитячаКосметикаToolStripMenuItem";
-            дитячаКосметикаToolStripMenuItem.Size=new Size(330, 28);
-            дитячаКосметикаToolStripMenuItem.Text="Дитяча косметика";
+            дерматокосметикаToolStripMenuItem.Click+=дерматокосметикаToolStripMenuItem_Click;
             // 
             // доглядЗаПорожниноюРотаToolStripMenuItem
             // 
-            доглядЗаПорожниноюРотаToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { зубнаЩіткаToolStripMenuItem, зубнаНиткаToolStripMenuItem, пастиЗубнийПорошокІГеліToolStripMenuItem, ополіскувачДляПорожниниРотаToolStripMenuItem });
+            доглядЗаПорожниноюРотаToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { зубнаЩіткаToolStripMenuItem, пастиЗубнийПорошокІГеліToolStripMenuItem, ополіскувачДляПорожниниРотаToolStripMenuItem });
             доглядЗаПорожниноюРотаToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             доглядЗаПорожниноюРотаToolStripMenuItem.Name="доглядЗаПорожниноюРотаToolStripMenuItem";
             доглядЗаПорожниноюРотаToolStripMenuItem.Size=new Size(330, 28);
@@ -678,25 +485,22 @@
             // 
             зубнаЩіткаToolStripMenuItem.Name="зубнаЩіткаToolStripMenuItem";
             зубнаЩіткаToolStripMenuItem.Size=new Size(368, 28);
-            зубнаЩіткаToolStripMenuItem.Text="Зубна щітка";
-            // 
-            // зубнаНиткаToolStripMenuItem
-            // 
-            зубнаНиткаToolStripMenuItem.Name="зубнаНиткаToolStripMenuItem";
-            зубнаНиткаToolStripMenuItem.Size=new Size(368, 28);
-            зубнаНиткаToolStripMenuItem.Text="Зубна нитка";
+            зубнаЩіткаToolStripMenuItem.Text="Зубна щітка і нитка";
+            зубнаЩіткаToolStripMenuItem.Click+=зубнаЩіткаToolStripMenuItem_Click;
             // 
             // пастиЗубнийПорошокІГеліToolStripMenuItem
             // 
             пастиЗубнийПорошокІГеліToolStripMenuItem.Name="пастиЗубнийПорошокІГеліToolStripMenuItem";
             пастиЗубнийПорошокІГеліToolStripMenuItem.Size=new Size(368, 28);
             пастиЗубнийПорошокІГеліToolStripMenuItem.Text="Пасти, зубний порошок і гелі";
+            пастиЗубнийПорошокІГеліToolStripMenuItem.Click+=пастиЗубнийПорошокІГеліToolStripMenuItem_Click;
             // 
             // ополіскувачДляПорожниниРотаToolStripMenuItem
             // 
             ополіскувачДляПорожниниРотаToolStripMenuItem.Name="ополіскувачДляПорожниниРотаToolStripMenuItem";
             ополіскувачДляПорожниниРотаToolStripMenuItem.Size=new Size(368, 28);
             ополіскувачДляПорожниниРотаToolStripMenuItem.Text="Ополіскувач для порожнини рота";
+            ополіскувачДляПорожниниРотаToolStripMenuItem.Click+=ополіскувачДляПорожниниРотаToolStripMenuItem_Click;
             // 
             // чоловікамToolStripMenuItem
             // 
@@ -712,10 +516,11 @@
             дезодирантиToolStripMenuItem.Name="дезодирантиToolStripMenuItem";
             дезодирантиToolStripMenuItem.Size=new Size(334, 28);
             дезодирантиToolStripMenuItem.Text="Дезодиранти";
+            дезодирантиToolStripMenuItem.Click+=дезодирантиToolStripMenuItem_Click;
             // 
             // доглядЗаТіломТаОбличчямToolStripMenuItem
             // 
-            доглядЗаТіломТаОбличчямToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { обличчяToolStripMenuItem2, ногиToolStripMenuItem, рукиToolStripMenuItem, тілоToolStripMenuItem1, доглядЗаБородоюToolStripMenuItem });
+            доглядЗаТіломТаОбличчямToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { обличчяToolStripMenuItem2, тілоToolStripMenuItem1, доглядЗаБородоюToolStripMenuItem });
             доглядЗаТіломТаОбличчямToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             доглядЗаТіломТаОбличчямToolStripMenuItem.Name="доглядЗаТіломТаОбличчямToolStripMenuItem";
             доглядЗаТіломТаОбличчямToolStripMenuItem.Size=new Size(334, 28);
@@ -726,34 +531,25 @@
             обличчяToolStripMenuItem2.Name="обличчяToolStripMenuItem2";
             обличчяToolStripMenuItem2.Size=new Size(252, 28);
             обличчяToolStripMenuItem2.Text="Обличчя";
-            // 
-            // ногиToolStripMenuItem
-            // 
-            ногиToolStripMenuItem.Name="ногиToolStripMenuItem";
-            ногиToolStripMenuItem.Size=new Size(252, 28);
-            ногиToolStripMenuItem.Text="Ноги";
-            // 
-            // рукиToolStripMenuItem
-            // 
-            рукиToolStripMenuItem.Name="рукиToolStripMenuItem";
-            рукиToolStripMenuItem.Size=new Size(252, 28);
-            рукиToolStripMenuItem.Text="Руки";
+            обличчяToolStripMenuItem2.Click+=обличчяToolStripMenuItem2_Click;
             // 
             // тілоToolStripMenuItem1
             // 
             тілоToolStripMenuItem1.Name="тілоToolStripMenuItem1";
             тілоToolStripMenuItem1.Size=new Size(252, 28);
             тілоToolStripMenuItem1.Text="Тіло";
+            тілоToolStripMenuItem1.Click+=тілоToolStripMenuItem1_Click;
             // 
             // доглядЗаБородоюToolStripMenuItem
             // 
             доглядЗаБородоюToolStripMenuItem.Name="доглядЗаБородоюToolStripMenuItem";
             доглядЗаБородоюToolStripMenuItem.Size=new Size(252, 28);
             доглядЗаБородоюToolStripMenuItem.Text="Догляд за бородою";
+            доглядЗаБородоюToolStripMenuItem.Click+=доглядЗаБородоюToolStripMenuItem_Click;
             // 
             // засобиДляГолінняToolStripMenuItem
             // 
-            засобиДляГолінняToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { бритваToolStripMenuItem, зміннаКасетаДляГоліннToolStripMenuItem, пінаДляБриттяToolStripMenuItem, гельДляГолінняToolStripMenuItem, кремДляГолінняToolStripMenuItem });
+            засобиДляГолінняToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { бритваToolStripMenuItem, пінаДляБриттяToolStripMenuItem });
             засобиДляГолінняToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             засобиДляГолінняToolStripMenuItem.Name="засобиДляГолінняToolStripMenuItem";
             засобиДляГолінняToolStripMenuItem.Size=new Size(334, 28);
@@ -764,34 +560,18 @@
             бритваToolStripMenuItem.Name="бритваToolStripMenuItem";
             бритваToolStripMenuItem.Size=new Size(304, 28);
             бритваToolStripMenuItem.Text="Бритва";
-            // 
-            // зміннаКасетаДляГоліннToolStripMenuItem
-            // 
-            зміннаКасетаДляГоліннToolStripMenuItem.Name="зміннаКасетаДляГоліннToolStripMenuItem";
-            зміннаКасетаДляГоліннToolStripMenuItem.Size=new Size(304, 28);
-            зміннаКасетаДляГоліннToolStripMenuItem.Text="Змінна касета для гоління";
+            бритваToolStripMenuItem.Click+=бритваToolStripMenuItem_Click;
             // 
             // пінаДляБриттяToolStripMenuItem
             // 
             пінаДляБриттяToolStripMenuItem.Name="пінаДляБриттяToolStripMenuItem";
-            пінаДляБриттяToolStripMenuItem.Size=new Size(304, 28);
+            пінаДляБриттяToolStripMenuItem.Size=new Size(224, 28);
             пінаДляБриттяToolStripMenuItem.Text="Піна для бриття";
-            // 
-            // гельДляГолінняToolStripMenuItem
-            // 
-            гельДляГолінняToolStripMenuItem.Name="гельДляГолінняToolStripMenuItem";
-            гельДляГолінняToolStripMenuItem.Size=new Size(304, 28);
-            гельДляГолінняToolStripMenuItem.Text="Гель для гоління";
-            // 
-            // кремДляГолінняToolStripMenuItem
-            // 
-            кремДляГолінняToolStripMenuItem.Name="кремДляГолінняToolStripMenuItem";
-            кремДляГолінняToolStripMenuItem.Size=new Size(304, 28);
-            кремДляГолінняToolStripMenuItem.Text="Крем для гоління";
+            пінаДляБриттяToolStripMenuItem.Click+=пінаДляБриттяToolStripMenuItem_Click;
             // 
             // засобиПісляГолінняToolStripMenuItem
             // 
-            засобиПісляГолінняToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { гельПісляГолінняToolStripMenuItem, бальзамПісляГолінняToolStripMenuItem, кремПісляГолінняToolStripMenuItem });
+            засобиПісляГолінняToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { гельПісляГолінняToolStripMenuItem });
             засобиПісляГолінняToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             засобиПісляГолінняToolStripMenuItem.Name="засобиПісляГолінняToolStripMenuItem";
             засобиПісляГолінняToolStripMenuItem.Size=new Size(334, 28);
@@ -800,118 +580,49 @@
             // гельПісляГолінняToolStripMenuItem
             // 
             гельПісляГолінняToolStripMenuItem.Name="гельПісляГолінняToolStripMenuItem";
-            гельПісляГолінняToolStripMenuItem.Size=new Size(273, 28);
+            гельПісляГолінняToolStripMenuItem.Size=new Size(239, 28);
             гельПісляГолінняToolStripMenuItem.Text="Гель після гоління";
-            // 
-            // бальзамПісляГолінняToolStripMenuItem
-            // 
-            бальзамПісляГолінняToolStripMenuItem.Name="бальзамПісляГолінняToolStripMenuItem";
-            бальзамПісляГолінняToolStripMenuItem.Size=new Size(273, 28);
-            бальзамПісляГолінняToolStripMenuItem.Text="Бальзам після гоління";
-            // 
-            // кремПісляГолінняToolStripMenuItem
-            // 
-            кремПісляГолінняToolStripMenuItem.Name="кремПісляГолінняToolStripMenuItem";
-            кремПісляГолінняToolStripMenuItem.Size=new Size(273, 28);
-            кремПісляГолінняToolStripMenuItem.Text="Крем після гоління";
+            гельПісляГолінняToolStripMenuItem.Click+=гельПісляГолінняToolStripMenuItem_Click;
             // 
             // доглядЗаВолоссямToolStripMenuItem
             // 
-            доглядЗаВолоссямToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { очтщенняТаЖивленняToolStripMenuItem, стайлінгToolStripMenuItem });
             доглядЗаВолоссямToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             доглядЗаВолоссямToolStripMenuItem.Name="доглядЗаВолоссямToolStripMenuItem";
             доглядЗаВолоссямToolStripMenuItem.Size=new Size(334, 28);
             доглядЗаВолоссямToolStripMenuItem.Text="Догляд за волоссям";
-            // 
-            // очтщенняТаЖивленняToolStripMenuItem
-            // 
-            очтщенняТаЖивленняToolStripMenuItem.Name="очтщенняТаЖивленняToolStripMenuItem";
-            очтщенняТаЖивленняToolStripMenuItem.Size=new Size(286, 28);
-            очтщенняТаЖивленняToolStripMenuItem.Text="Очищення та живлення";
-            // 
-            // стайлінгToolStripMenuItem
-            // 
-            стайлінгToolStripMenuItem.Name="стайлінгToolStripMenuItem";
-            стайлінгToolStripMenuItem.Size=new Size(286, 28);
-            стайлінгToolStripMenuItem.Text="Стайлінг";
+            доглядЗаВолоссямToolStripMenuItem.Click+=доглядЗаВолоссямToolStripMenuItem_Click;
             // 
             // брендиToolStripMenuItem
             // 
-            брендиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { lOrealParisToolStripMenuItem, chsnelToolStripMenuItem, cristianDiorToolStripMenuItem, lancomeToolStripMenuItem, mACCosmeticsToolStripMenuItem, ySLBeautyToolStripMenuItem, nARSToolStripMenuItem, charlotteTilberyToolStripMenuItem, giorgioArmaniToolStripMenuItem, pradaToolStripMenuItem });
+            брендиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { chsnelToolStripMenuItem, cristianDiorToolStripMenuItem, ySLBeautyToolStripMenuItem, lAMELToolStripMenuItem, nYXToolStripMenuItem });
             брендиToolStripMenuItem.Font=new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             брендиToolStripMenuItem.Name="брендиToolStripMenuItem";
             брендиToolStripMenuItem.Size=new Size(111, 36);
             брендиToolStripMenuItem.Text="Бренди";
             // 
-            // lOrealParisToolStripMenuItem
-            // 
-            lOrealParisToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            lOrealParisToolStripMenuItem.Name="lOrealParisToolStripMenuItem";
-            lOrealParisToolStripMenuItem.Size=new Size(226, 28);
-            lOrealParisToolStripMenuItem.Text="L'Oreal Paris";
-            // 
             // chsnelToolStripMenuItem
             // 
             chsnelToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             chsnelToolStripMenuItem.Name="chsnelToolStripMenuItem";
-            chsnelToolStripMenuItem.Size=new Size(226, 28);
+            chsnelToolStripMenuItem.Size=new Size(224, 28);
             chsnelToolStripMenuItem.Text="Chanel";
+            chsnelToolStripMenuItem.Click+=chsnelToolStripMenuItem_Click;
             // 
             // cristianDiorToolStripMenuItem
             // 
             cristianDiorToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             cristianDiorToolStripMenuItem.Name="cristianDiorToolStripMenuItem";
-            cristianDiorToolStripMenuItem.Size=new Size(226, 28);
+            cristianDiorToolStripMenuItem.Size=new Size(224, 28);
             cristianDiorToolStripMenuItem.Text="Cristian Dior";
-            // 
-            // lancomeToolStripMenuItem
-            // 
-            lancomeToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            lancomeToolStripMenuItem.Name="lancomeToolStripMenuItem";
-            lancomeToolStripMenuItem.Size=new Size(226, 28);
-            lancomeToolStripMenuItem.Text="Lancome";
-            // 
-            // mACCosmeticsToolStripMenuItem
-            // 
-            mACCosmeticsToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            mACCosmeticsToolStripMenuItem.Name="mACCosmeticsToolStripMenuItem";
-            mACCosmeticsToolStripMenuItem.Size=new Size(226, 28);
-            mACCosmeticsToolStripMenuItem.Text="MAC Cosmetics";
+            cristianDiorToolStripMenuItem.Click+=cristianDiorToolStripMenuItem_Click;
             // 
             // ySLBeautyToolStripMenuItem
             // 
             ySLBeautyToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             ySLBeautyToolStripMenuItem.Name="ySLBeautyToolStripMenuItem";
-            ySLBeautyToolStripMenuItem.Size=new Size(226, 28);
+            ySLBeautyToolStripMenuItem.Size=new Size(224, 28);
             ySLBeautyToolStripMenuItem.Text="YSL Beauty";
-            // 
-            // nARSToolStripMenuItem
-            // 
-            nARSToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            nARSToolStripMenuItem.Name="nARSToolStripMenuItem";
-            nARSToolStripMenuItem.Size=new Size(226, 28);
-            nARSToolStripMenuItem.Text="NARS";
-            // 
-            // charlotteTilberyToolStripMenuItem
-            // 
-            charlotteTilberyToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            charlotteTilberyToolStripMenuItem.Name="charlotteTilberyToolStripMenuItem";
-            charlotteTilberyToolStripMenuItem.Size=new Size(226, 28);
-            charlotteTilberyToolStripMenuItem.Text="Charlotte Tilbery";
-            // 
-            // giorgioArmaniToolStripMenuItem
-            // 
-            giorgioArmaniToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            giorgioArmaniToolStripMenuItem.Name="giorgioArmaniToolStripMenuItem";
-            giorgioArmaniToolStripMenuItem.Size=new Size(226, 28);
-            giorgioArmaniToolStripMenuItem.Text="Giorgio Armani";
-            // 
-            // pradaToolStripMenuItem
-            // 
-            pradaToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            pradaToolStripMenuItem.Name="pradaToolStripMenuItem";
-            pradaToolStripMenuItem.Size=new Size(226, 28);
-            pradaToolStripMenuItem.Text="Prada";
+            ySLBeautyToolStripMenuItem.Click+=ySLBeautyToolStripMenuItem_Click;
             // 
             // pictureBox2
             // 
@@ -1117,12 +828,50 @@
             button_sale3.UseVisualStyleBackColor=false;
             button_sale3.Click+=button_sale3_Click;
             // 
+            // button_sale
+            // 
+            button_sale.Location=new Point(975, 88);
+            button_sale.Name="button_sale";
+            button_sale.Size=new Size(14, 13);
+            button_sale.TabIndex=22;
+            button_sale.UseVisualStyleBackColor=true;
+            button_sale.Click+=button_sale_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image=Properties.Resources.Знімок_екрана_2025_06_19_160359_removebg_preview1;
+            pictureBox3.Location=new Point(926, 43);
+            pictureBox3.Name="pictureBox3";
+            pictureBox3.Size=new Size(115, 107);
+            pictureBox3.SizeMode=PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex=23;
+            pictureBox3.TabStop=false;
+            pictureBox3.Click+=pictureBox3_Click;
+            // 
+            // lAMELToolStripMenuItem
+            // 
+            lAMELToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            lAMELToolStripMenuItem.Name="lAMELToolStripMenuItem";
+            lAMELToolStripMenuItem.Size=new Size(224, 28);
+            lAMELToolStripMenuItem.Text="LAMEL";
+            lAMELToolStripMenuItem.Click+=lAMELToolStripMenuItem_Click;
+            // 
+            // nYXToolStripMenuItem
+            // 
+            nYXToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            nYXToolStripMenuItem.Name="nYXToolStripMenuItem";
+            nYXToolStripMenuItem.Size=new Size(224, 28);
+            nYXToolStripMenuItem.Text="NYX";
+            nYXToolStripMenuItem.Click+=nYXToolStripMenuItem_Click;
+            // 
             // magaz
             // 
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
             BackColor=SystemColors.Window;
             ClientSize=new Size(1126, 658);
+            Controls.Add(button_sale);
+            Controls.Add(pictureBox3);
             Controls.Add(button_sale3);
             Controls.Add(button_sale2);
             Controls.Add(button_sale1);
@@ -1156,6 +905,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox_parfum1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_parfum3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_parfum2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1183,7 +933,6 @@
         private ToolStripMenuItem підводкаДляОчейToolStripMenuItem;
         private ToolStripMenuItem губиToolStripMenuItem;
         private ToolStripMenuItem обличчяToolStripMenuItem1;
-        private ToolStripMenuItem пензліToolStripMenuItem;
         private ToolStripMenuItem олівецьДляБрівToolStripMenuItem;
         private ToolStripMenuItem гельДляБрівToolStripMenuItem;
         private ToolStripMenuItem попмадаДляГубToolStripMenuItem;
@@ -1195,82 +944,42 @@
         private ToolStripMenuItem консилерToolStripMenuItem;
         private ToolStripMenuItem пудраДляОблмччяToolStripMenuItem;
         private ToolStripMenuItem тональнийКремToolStripMenuItem;
-        private ToolStripMenuItem кремДляОбличчяToolStripMenuItem;
-        private ToolStripMenuItem маскиДляОбличчяToolStripMenuItem;
-        private ToolStripMenuItem сироваткиЕліксириToolStripMenuItem;
-        private ToolStripMenuItem маслоТаОліїДляОбличчяToolStripMenuItem;
         private ToolStripMenuItem очищенняToolStripMenuItem;
         private ToolStripMenuItem зволоженняToolStripMenuItem;
         private ToolStripMenuItem живленняToolStripMenuItem;
         private ToolStripMenuItem захистВідСонцяToolStripMenuItem;
-        private ToolStripMenuItem скрабиПілінгиToolStripMenuItem;
-        private ToolStripMenuItem пінаДляОбличчяToolStripMenuItem;
         private ToolStripMenuItem геліДляВмиванняToolStripMenuItem;
         private ToolStripMenuItem міцелярнаВодаToolStripMenuItem;
         private PictureBox pictureBox2;
         private ToolStripMenuItem ofvgeysToolStripMenuItem;
         private ToolStripMenuItem бальзамДляВолоссяToolStripMenuItem;
-        private ToolStripMenuItem кондиціонерToolStripMenuItem;
         private ToolStripMenuItem маскиДляВолоссяToolStripMenuItem;
-        private ToolStripMenuItem скрабІПілінгДляШкіриГоловиToolStripMenuItem;
         private ToolStripMenuItem оліяТаМаслоДляВолоссяToolStripMenuItem;
-        private ToolStripMenuItem сухийШампуньToolStripMenuItem;
-        private ToolStripMenuItem безсульфатніШампуніToolStripMenuItem;
         private ToolStripMenuItem дЛяВаниТаДушуToolStripMenuItem;
         private ToolStripMenuItem депіляціяToolStripMenuItem;
-        private ToolStripMenuItem дезодирантиАнтиперспірантиToolStripMenuItem;
         private ToolStripMenuItem косметикаДляРукToolStripMenuItem;
-        private ToolStripMenuItem косметикаДляНігToolStripMenuItem;
-        private ToolStripMenuItem засобиДляМасажуToolStripMenuItem;
-        private ToolStripMenuItem засобиДляЗасмагиToolStripMenuItem;
-        private ToolStripMenuItem захистВідСонцяToolStripMenuItem1;
-        private ToolStripMenuItem геліЛосьйониМолочкоToolStripMenuItem;
-        private ToolStripMenuItem скрабиТаПілінгиToolStripMenuItem;
-        private ToolStripMenuItem пінаДляВанниToolStripMenuItem;
-        private ToolStripMenuItem маскиІСкрабиToolStripMenuItem;
-        private ToolStripMenuItem кремиІЛосьйониToolStripMenuItem1;
-        private ToolStripMenuItem маскиІСкрабиToolStripMenuItem1;
         private ToolStripMenuItem дерматокосметикаToolStripMenuItem;
-        private ToolStripMenuItem косетикаДляВагітнихToolStripMenuItem;
-        private ToolStripMenuItem дитячаКосметикаToolStripMenuItem;
         private ToolStripMenuItem доглядЗаПорожниноюРотаToolStripMenuItem;
         private ToolStripMenuItem зубнаЩіткаToolStripMenuItem;
-        private ToolStripMenuItem зубнаНиткаToolStripMenuItem;
         private ToolStripMenuItem пастиЗубнийПорошокІГеліToolStripMenuItem;
         private ToolStripMenuItem ополіскувачДляПорожниниРотаToolStripMenuItem;
         private ToolStripMenuItem дезодирантиToolStripMenuItem;
         private ToolStripMenuItem доглядЗаТіломТаОбличчямToolStripMenuItem;
         private ToolStripMenuItem обличчяToolStripMenuItem2;
-        private ToolStripMenuItem ногиToolStripMenuItem;
-        private ToolStripMenuItem рукиToolStripMenuItem;
         private ToolStripMenuItem тілоToolStripMenuItem1;
         private ToolStripMenuItem засобиДляГолінняToolStripMenuItem;
         private ToolStripMenuItem бритваToolStripMenuItem;
-        private ToolStripMenuItem зміннаКасетаДляГоліннToolStripMenuItem;
         private ToolStripMenuItem пінаДляБриттяToolStripMenuItem;
-        private ToolStripMenuItem гельДляГолінняToolStripMenuItem;
-        private ToolStripMenuItem кремДляГолінняToolStripMenuItem;
         private ToolStripMenuItem засобиПісляГолінняToolStripMenuItem;
         private ToolStripMenuItem гельПісляГолінняToolStripMenuItem;
-        private ToolStripMenuItem бальзамПісляГолінняToolStripMenuItem;
-        private ToolStripMenuItem кремПісляГолінняToolStripMenuItem;
         private ToolStripMenuItem доглядЗаВолоссямToolStripMenuItem;
         private ToolStripMenuItem брендиToolStripMenuItem;
         private ToolStripMenuItem доглядЗаБородоюToolStripMenuItem;
-        private ToolStripMenuItem очтщенняТаЖивленняToolStripMenuItem;
-        private ToolStripMenuItem стайлінгToolStripMenuItem;
-        private ToolStripMenuItem lOrealParisToolStripMenuItem;
         private ToolStripMenuItem chsnelToolStripMenuItem;
         private ToolStripMenuItem cristianDiorToolStripMenuItem;
-        private ToolStripMenuItem lancomeToolStripMenuItem;
-        private ToolStripMenuItem mACCosmeticsToolStripMenuItem;
         private ToolStripMenuItem ySLBeautyToolStripMenuItem;
-        private ToolStripMenuItem nARSToolStripMenuItem;
-        private ToolStripMenuItem charlotteTilberyToolStripMenuItem;
         private Button button_left;
         private Button button_right;
-        private ToolStripMenuItem giorgioArmaniToolStripMenuItem;
-        private ToolStripMenuItem pradaToolStripMenuItem;
         private PictureBox pictureBox_parfum1;
         private PictureBox pictureBox_parfum3;
         private PictureBox pictureBox_parfum2;
@@ -1286,6 +995,9 @@
         private Button button_sale1;
         private Button button_sale2;
         private Button button_sale3;
-        private ToolStripMenuItem кремДляРукToolStripMenuItem;
+        private Button button_sale;
+        private PictureBox pictureBox3;
+        private ToolStripMenuItem lAMELToolStripMenuItem;
+        private ToolStripMenuItem nYXToolStripMenuItem;
     }
 }

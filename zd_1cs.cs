@@ -15,6 +15,8 @@ namespace math_zadach
         public zd_1cs()
         {
             InitializeComponent();
+            this.Load += zd_1cs_Load;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -90,8 +92,8 @@ namespace math_zadach
             else if (radioButton_perimeter.Checked)
             {
 
-                if (double.TryParse(textBox2.Text, out double a) &&a>0&&
-                    double.TryParse(textBox3.Text, out double b)&&b>0)
+                if (double.TryParse(textBox1.Text, out double a) &&a>0&&
+                    double.TryParse(textBox2.Text, out double b)&&b>0)
                 {
                     result = 2 * (a + b);
                     listBox_result.Items.Add($"Периметр прямокутника {a}×{b} = {result:F2}");
@@ -153,6 +155,18 @@ namespace math_zadach
         private void listBox_result_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void zd_1cs_Load(object sender, EventArgs e)
+        {
+            radioButton_area.Checked = true;
+
+            label_radius.Text = "Радіус";
+            label_a.Text = "";
+            label_h.Text = "";
+            textBox1.Visible = true;
+            textBox2.Visible = false;
+            textBox3.Visible = false;
         }
     }
 }

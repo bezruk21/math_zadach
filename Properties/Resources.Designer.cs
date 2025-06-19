@@ -263,6 +263,36 @@ namespace math_zadach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2025_06_19_160359 {
+            get {
+                object obj = ResourceManager.GetObject("Знімок екрана 2025-06-19 160359", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2025_06_19_160359_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Знімок_екрана_2025-06-19_160359-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2025_06_19_160359_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Знімок_екрана_2025-06-19_160359-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap прада {
             get {
                 object obj = ResourceManager.GetObject("прада", resourceCulture);

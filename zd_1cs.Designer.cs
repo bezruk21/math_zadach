@@ -222,6 +222,7 @@
             Controls.Add(label_radius);
             Name="zd_1cs";
             Text="Завдання 1";
+            Load+=zd_1cs_Load;
             ResumeLayout(false);
             PerformLayout();
         }

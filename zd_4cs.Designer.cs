@@ -170,7 +170,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip=menuStrip1;
             Name="zd_4cs";
-            Text="Завдання 2";
+            Text="Завдання 4";
             FormClosing+=zd_4cs_FormClosing;
             Load+=zd_4cs_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown_line).EndInit();

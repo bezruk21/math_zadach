@@ -36,9 +36,9 @@ namespace math_zadach
         int feed_f = 1;
         int spf_f = 1;
         int shamp_h = 1;
-        int balm_h  = 1;
+        int balm_h = 1;
         int mask_h = 1;
-        int oil_h = 1;  
+        int oil_h = 1;
         int shower_b = 1;
         int depil_b = 1;
         int hand_c = 1;
@@ -82,8 +82,8 @@ namespace math_zadach
         bool micel = false;
         bool hydr = false;
         bool feed = false;
-        bool spf= false;
-        bool shamp= false;
+        bool spf = false;
+        bool shamp = false;
         bool balm = false;
         bool mask = false;
         bool oil = false;
@@ -101,7 +101,7 @@ namespace math_zadach
         bool razor = false;
         bool shav = false;
         bool after = false;
-        bool hair =  false;
+        bool hair = false;
         bool chanel = false;
         bool dior = false;
         bool ysl = false;
@@ -141,15 +141,15 @@ namespace math_zadach
 
             womenparfum = false;
             menparfum = false;
-            tini=false;
-            tysh=false;
+            tini = false;
+            tysh = false;
             podvod = false;
             pensil = false;
             gel = false;
             lip = false;
             gloss = false;
             pensillip = false;
-            brush=false;
+            brush = false;
             bronzer = false;
             high = false;
             conc = false;
@@ -183,7 +183,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox_parfum1.Visible = false;
             pictureBox_parfum2.Visible = false;
             pictureBox_parfum3.Visible = false;
@@ -244,10 +244,10 @@ namespace math_zadach
             tysh = false;
             podvod = false;
             pensil = false;
-            gel= false;
+            gel = false;
             lip = false;
             gloss = false;
-            pensillip= false;
+            pensillip = false;
             brush = false;
             bronzer = false;
             high = false;
@@ -282,7 +282,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
         }
 
         private void magaz_Load_1(object sender, EventArgs e)
@@ -772,7 +772,7 @@ namespace math_zadach
             if (pensillip)
             {
 
-                if (pensil_l== 1)
+                if (pensil_l == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "meibel.png");
                     label_name1.Text = "Maybelline New York Color Sensational";
@@ -828,7 +828,7 @@ namespace math_zadach
             if (brush)
             {
 
-                if (brush_f== 1)
+                if (brush_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "dior brush.png");
                     label_name1.Text = "Dior Backstage Rosy Glow Blusher";
@@ -947,7 +947,7 @@ namespace math_zadach
             if (bronzer)
             {
 
-                if (bronzer_f== 1)
+                if (bronzer_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1004,7 +1004,7 @@ namespace math_zadach
             if (high)
             {
 
-                if (high_f== 1)
+                if (high_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1062,7 +1062,7 @@ namespace math_zadach
             if (conc)
             {
 
-                if (conc_f== 1)
+                if (conc_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1119,7 +1119,7 @@ namespace math_zadach
             if (powder)
             {
 
-                if (powder_f== 1)
+                if (powder_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1176,7 +1176,7 @@ namespace math_zadach
             if (found)
             {
 
-                if (found_f== 1)
+                if (found_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1233,7 +1233,7 @@ namespace math_zadach
             if (wash)
             {
 
-                if (wash_g== 1)
+                if (wash_g == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1347,7 +1347,7 @@ namespace math_zadach
             if (hydr)
             {
 
-                if (hydr_f== 1)
+                if (hydr_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1404,7 +1404,7 @@ namespace math_zadach
             if (feed)
             {
 
-                if (feed_f== 1)
+                if (feed_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1461,7 +1461,7 @@ namespace math_zadach
             if (spf)
             {
 
-                if (spf_f== 1)
+                if (spf_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1498,7 +1498,7 @@ namespace math_zadach
                 }
             }
         }
-        private void shamp_hair ()
+        private void shamp_hair()
         {
             pictureBox_parfum1.Visible = true;
             pictureBox_parfum2.Visible = true;
@@ -1518,7 +1518,7 @@ namespace math_zadach
             if (shamp)
             {
 
-                if (shamp_h== 1)
+                if (shamp_h == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1576,7 +1576,7 @@ namespace math_zadach
             if (balm)
             {
 
-                if (balm_h== 1)
+                if (balm_h == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1633,7 +1633,7 @@ namespace math_zadach
             if (mask)
             {
 
-                if (mask_h== 1)
+                if (mask_h == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1690,7 +1690,7 @@ namespace math_zadach
             if (oil)
             {
 
-                if (oil_h== 1)
+                if (oil_h == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1747,7 +1747,7 @@ namespace math_zadach
             if (shower)
             {
 
-                if (shower_b== 1)
+                if (shower_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1804,7 +1804,7 @@ namespace math_zadach
             if (depil)
             {
 
-                if (depil_b== 1)
+                if (depil_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1861,7 +1861,7 @@ namespace math_zadach
             if (hand)
             {
 
-                if (hand_c== 1)
+                if (hand_c == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1918,7 +1918,7 @@ namespace math_zadach
             if (derm)
             {
 
-                if (derm_c== 1)
+                if (derm_c == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -1975,7 +1975,7 @@ namespace math_zadach
             if (toolthb)
             {
 
-                if (toolth_b== 1)
+                if (toolth_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2032,7 +2032,7 @@ namespace math_zadach
             if (toolthp)
             {
 
-                if (toolth_p== 1)
+                if (toolth_p == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2089,7 +2089,7 @@ namespace math_zadach
             if (mounth)
             {
 
-                if (mounth_w== 1)
+                if (mounth_w == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2146,7 +2146,7 @@ namespace math_zadach
             if (deod)
             {
 
-                if (deod_b== 1)
+                if (deod_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2203,7 +2203,7 @@ namespace math_zadach
             if (face)
             {
 
-                if (face_m== 1)
+                if (face_m == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2260,7 +2260,7 @@ namespace math_zadach
             if (body)
             {
 
-                if (body_m== 1)
+                if (body_m == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2317,7 +2317,7 @@ namespace math_zadach
             if (beard)
             {
 
-                if (beard_c== 1)
+                if (beard_c == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2374,7 +2374,7 @@ namespace math_zadach
             if (razor)
             {
 
-                if (razor_f== 1)
+                if (razor_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2431,7 +2431,7 @@ namespace math_zadach
             if (shav)
             {
 
-                if (shav_f== 1)
+                if (shav_f == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2488,7 +2488,7 @@ namespace math_zadach
             if (after)
             {
 
-                if (after_g== 1)
+                if (after_g == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2545,7 +2545,7 @@ namespace math_zadach
             if (hair)
             {
 
-                if (hair_c== 1)
+                if (hair_c == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2602,7 +2602,7 @@ namespace math_zadach
             if (chanel)
             {
 
-                if (chanel_b== 1)
+                if (chanel_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2659,7 +2659,7 @@ namespace math_zadach
             if (dior)
             {
 
-                if (dior_b== 1)
+                if (dior_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2716,7 +2716,7 @@ namespace math_zadach
             if (ysl)
             {
 
-                if (ysl_b== 1)
+                if (ysl_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2773,7 +2773,7 @@ namespace math_zadach
             if (lamel)
             {
 
-                if (lamel_b== 1)
+                if (lamel_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2830,7 +2830,7 @@ namespace math_zadach
             if (nyx)
             {
 
-                if (nyx_b== 1)
+                if (nyx_b == 1)
                 {
                     pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
                     label_name1.Text = "Kiko Milano Silky Glow Baked";
@@ -2928,13 +2928,13 @@ namespace math_zadach
             else if (pensillip)
             {
                 pensil_l--;
-                if (pensil_l< 1) pensil_l = 2;
+                if (pensil_l < 1) pensil_l = 2;
                 lip_pensil();
             }
             else if (brush)
             {
                 brush_f--;
-                if (brush_f< 1) brush_f = 2;
+                if (brush_f < 1) brush_f = 2;
                 lip_pensil();
             }
             else if (bronzer)
@@ -2975,13 +2975,13 @@ namespace math_zadach
             }
             else if (micel)
             {
-               micel_w--;
+                micel_w--;
                 if (micel_w < 1) micel_w = 2;
                 micel_water();
             }
             else if (hydr)
             {
-               hydr_f--;
+                hydr_f--;
                 if (hydr_f < 1) hydr_f = 2;
                 hydr_face();
             }
@@ -3036,7 +3036,7 @@ namespace math_zadach
             }
             else if (hand)
             {
-               hand_c--;
+                hand_c--;
                 if (hand_c < 1) hand_c = 2;
                 hand_cosmet();
             }
@@ -3073,73 +3073,73 @@ namespace math_zadach
             else if (face)
             {
                 face_m--;
-                if (face_m< 1) face_m = 2;
+                if (face_m < 1) face_m = 2;
                 face_men();
             }
             else if (body)
             {
                 body_m--;
-                if (body_m< 1) body_m = 2;
+                if (body_m < 1) body_m = 2;
                 body_men();
             }
             else if (beard)
             {
                 beard_c--;
-                if (beard_c< 1) beard_c = 2;
+                if (beard_c < 1) beard_c = 2;
                 beard_care();
             }
             else if (razor)
             {
                 razor_f--;
-                if (razor_f< 1) razor_f = 2;
+                if (razor_f < 1) razor_f = 2;
                 razor_face();
             }
             else if (shav)
             {
                 shav_f--;
-                if (shav_f< 1) shav_f = 2;
+                if (shav_f < 1) shav_f = 2;
                 shav_foam();
             }
             else if (after)
             {
                 after_g--;
-                if (after_g< 1) after_g = 2;
+                if (after_g < 1) after_g = 2;
                 after_gel();
             }
             else if (hair)
             {
                 hair_c--;
-                if (hair_c< 1) hair_c = 2;
+                if (hair_c < 1) hair_c = 2;
                 hair_care();
             }
-             if (chanel)
+            if (chanel)
             {
                 chanel_b--;
-                if (chanel_b< 1) chanel_b = 2;
+                if (chanel_b < 1) chanel_b = 2;
                 chanel_brand();
             }
             else if (dior)
             {
                 dior_b--;
-                if (dior_b< 1) dior_b = 2;
+                if (dior_b < 1) dior_b = 2;
                 dior_brand();
             }
             else if (ysl)
             {
                 ysl_b--;
-                if (ysl_b< 1) ysl_b = 2;
+                if (ysl_b < 1) ysl_b = 2;
                 ysl_brand();
             }
             else if (lamel)
             {
                 lamel_b--;
-                if (lamel_b< 1) lamel_b = 2;
+                if (lamel_b < 1) lamel_b = 2;
                 lamel_brand();
             }
             else if (nyx)
             {
                 nyx_b--;
-                if (nyx_b< 1) nyx_b = 2;
+                if (nyx_b < 1) nyx_b = 2;
                 nyx_brand();
             }
             else
@@ -3307,7 +3307,7 @@ namespace math_zadach
             else if (shower)
             {
                 shower_b++;
-                if (shower_b > 2) shower_b =1;
+                if (shower_b > 2) shower_b = 1;
                 shower_body();
             }
             else if (depil)
@@ -3456,21 +3456,53 @@ namespace math_zadach
         private void button_sale1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Товар збережено в коризу", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string[] lines = File.ReadAllLines("cart.txt");
+            StreamWriter writer = new StreamWriter("cart.txt");
+            string add;
+            foreach (string line in lines)
+            {
+                if(line!="")
+                writer.WriteLine(line);
+            }
+            add = label_name1.Text+"," +label_voda1.Text+","+label_price1.Text;
+            writer.WriteLine(add);
+            writer.Close();
         }
-
         private void button_sale2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Товар збережено в коризу", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string[] lines = File.ReadAllLines("cart.txt");
+            StreamWriter writer = new StreamWriter("cart.txt");
+            string add;
+            foreach (string line in lines)
+            {
+                if (line != "")
+                    writer.WriteLine(line);
+            }
+            add = label_name2.Text + "," + label_voda2.Text + "," + label_price2.Text;
+            writer.WriteLine(add);
+            writer.Close();
         }
-
         private void button_sale3_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Товар збережено в коризу", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string[] lines = File.ReadAllLines("cart.txt");
+            StreamWriter writer = new StreamWriter("cart.txt");
+            string add;
+            foreach (string line in lines)
+            {
+                if (line != "")
+                    writer.WriteLine(line);
+            }
+            add = label_name3.Text + "," + label_voda3.Text + "," + label_price3.Text;
+            writer.WriteLine(add);
+            writer.Close();
         }
+
 
         private void жіночаПарфумеріяToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            womenparfum=true;
+            womenparfum = true;
             menparfum = false;
             tini = false;
             tysh = false;
@@ -3478,10 +3510,10 @@ namespace math_zadach
             pensil = false;
             gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -3514,7 +3546,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -3536,22 +3568,20 @@ namespace math_zadach
             parfum_women();
         }
 
-
-
         private void чоловічаПарфумеріяToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            womenparfum=false;
-            tini=false;
+            womenparfum = false;
+            tini = false;
             menparfum = true;
-            tysh=false;
-            podvod=false;
-            pensil=false;
+            tysh = false;
+            podvod = false;
+            pensil = false;
             gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -3584,7 +3614,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -3608,18 +3638,18 @@ namespace math_zadach
 
         private void тушДляВійToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            womenparfum=false;
+            womenparfum = false;
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = true;
-            podvod=false;
+            podvod = false;
             pensil = false;
             gel = false;
             lip = false;
-            gloss=false;
-            brush=false;
-            pensillip= false;
-            bronzer=false;
+            gloss = false;
+            brush = false;
+            pensillip = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -3652,7 +3682,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -3676,18 +3706,18 @@ namespace math_zadach
 
         private void тініДляПовікToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            womenparfum=false;
+            womenparfum = false;
             menparfum = false;
-            tini= true;
+            tini = true;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -3720,7 +3750,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -3744,18 +3774,18 @@ namespace math_zadach
 
         private void підводкаДляОчейToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            womenparfum=false;
+            womenparfum = false;
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=true;
-            pensil=false;
-            gel=false;
+            podvod = true;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -3788,7 +3818,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -3812,18 +3842,18 @@ namespace math_zadach
 
         private void олівецьДляБрівToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            womenparfum=false;
+            womenparfum = false;
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=true;
-            gel=false;
+            podvod = false;
+            pensil = true;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -3856,7 +3886,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -3880,18 +3910,18 @@ namespace math_zadach
 
         private void гельДляБрівToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            womenparfum=false;
+            womenparfum = false;
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=true;
+            podvod = false;
+            pensil = false;
+            gel = true;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -3924,7 +3954,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -3948,18 +3978,18 @@ namespace math_zadach
 
         private void попмадаДляГубToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            womenparfum=false;
+            womenparfum = false;
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = true;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -3992,7 +4022,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4017,16 +4047,16 @@ namespace math_zadach
         private void блискДляГубToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=true;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = true;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4059,7 +4089,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4084,16 +4114,16 @@ namespace math_zadach
         private void контурнийОлівецьДляБрівToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= true;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = true;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4126,7 +4156,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4151,16 +4181,16 @@ namespace math_zadach
         private void руянаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=true;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = true;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4193,7 +4223,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4219,16 +4249,16 @@ namespace math_zadach
         private void бронзерToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=true;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = true;
             high = false;
             conc = false;
             powder = false;
@@ -4261,7 +4291,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4286,16 +4316,16 @@ namespace math_zadach
         private void хайлайтерToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = true;
             conc = false;
             powder = false;
@@ -4328,7 +4358,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4353,16 +4383,16 @@ namespace math_zadach
         private void консилерToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = true;
             powder = false;
@@ -4395,7 +4425,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4420,16 +4450,16 @@ namespace math_zadach
         private void пудраДляОблмччяToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = true;
@@ -4462,7 +4492,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4487,16 +4517,16 @@ namespace math_zadach
         private void тональнийКремToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4529,7 +4559,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4556,8 +4586,11 @@ namespace math_zadach
             exit form = new exit();
             if (form.ShowDialog() == DialogResult.No)
             {
+               
                 e.Cancel = true;
-            }
+            } StreamWriter writer = new StreamWriter("cart.txt");
+                writer.WriteLine("");
+                writer.Close();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -4574,16 +4607,16 @@ namespace math_zadach
         private void геліДляВмиванняToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4616,7 +4649,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4641,16 +4674,16 @@ namespace math_zadach
         private void міцелярнаВодаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4683,7 +4716,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4709,16 +4742,16 @@ namespace math_zadach
         private void зволоженняToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4751,7 +4784,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4776,16 +4809,16 @@ namespace math_zadach
         private void живленняToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4818,7 +4851,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4843,16 +4876,16 @@ namespace math_zadach
         private void захистВідСонцяToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4885,7 +4918,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4910,16 +4943,16 @@ namespace math_zadach
         private void ofvgeysToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -4952,7 +4985,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -4977,16 +5010,16 @@ namespace math_zadach
         private void бальзамДляВолоссяToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5019,7 +5052,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5044,16 +5077,16 @@ namespace math_zadach
         private void маскиДляВолоссяToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5086,7 +5119,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5111,16 +5144,16 @@ namespace math_zadach
         private void оліяТаМаслоДляВолоссяToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5153,7 +5186,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5178,16 +5211,16 @@ namespace math_zadach
         private void дЛяВаниТаДушуToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5220,7 +5253,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5246,16 +5279,16 @@ namespace math_zadach
         private void депіляціяToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5288,7 +5321,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5314,16 +5347,16 @@ namespace math_zadach
         private void косметикаДляРукToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5356,7 +5389,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5381,16 +5414,16 @@ namespace math_zadach
         private void дерматокосметикаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5423,7 +5456,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5448,16 +5481,16 @@ namespace math_zadach
         private void зубнаЩіткаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5490,7 +5523,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5515,16 +5548,16 @@ namespace math_zadach
         private void пастиЗубнийПорошокІГеліToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5557,7 +5590,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5582,16 +5615,16 @@ namespace math_zadach
         private void ополіскувачДляПорожниниРотаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5624,7 +5657,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5649,16 +5682,16 @@ namespace math_zadach
         private void дезодирантиToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5691,7 +5724,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5716,16 +5749,16 @@ namespace math_zadach
         private void обличчяToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5758,7 +5791,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5783,16 +5816,16 @@ namespace math_zadach
         private void тілоToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5825,7 +5858,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5850,16 +5883,16 @@ namespace math_zadach
         private void доглядЗаБородоюToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5892,7 +5925,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5917,16 +5950,16 @@ namespace math_zadach
         private void бритваToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -5959,7 +5992,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -5984,16 +6017,16 @@ namespace math_zadach
         private void пінаДляБриттяToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -6026,7 +6059,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -6051,16 +6084,16 @@ namespace math_zadach
         private void гельПісляГолінняToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -6093,7 +6126,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -6118,16 +6151,16 @@ namespace math_zadach
         private void доглядЗаВолоссямToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -6160,7 +6193,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -6185,16 +6218,16 @@ namespace math_zadach
         private void chsnelToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -6227,7 +6260,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -6252,16 +6285,16 @@ namespace math_zadach
         private void cristianDiorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -6294,7 +6327,7 @@ namespace math_zadach
             dior = true;
             ysl = false;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -6319,16 +6352,16 @@ namespace math_zadach
         private void ySLBeautyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -6361,7 +6394,7 @@ namespace math_zadach
             dior = false;
             ysl = true;
             lamel = false;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -6386,16 +6419,16 @@ namespace math_zadach
         private void lAMELToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -6428,7 +6461,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = true;
-            nyx= false;
+            nyx = false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -6453,16 +6486,16 @@ namespace math_zadach
         private void nYXToolStripMenuItem_Click(object sender, EventArgs e)
         {
             menparfum = false;
-            tini= false;
+            tini = false;
             tysh = false;
-            podvod=false;
-            pensil=false;
-            gel=false;
+            podvod = false;
+            pensil = false;
+            gel = false;
             lip = false;
-            gloss=false;
-            pensillip= false;
-            brush=false;
-            bronzer=false;
+            gloss = false;
+            pensillip = false;
+            brush = false;
+            bronzer = false;
             high = false;
             conc = false;
             powder = false;
@@ -6495,7 +6528,7 @@ namespace math_zadach
             dior = false;
             ysl = false;
             lamel = false;
-            nyx= true;
+            nyx = true;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -6516,5 +6549,7 @@ namespace math_zadach
             button_sale3.Visible = true;
             nyx_brand();
         }
+
+
     }
 }

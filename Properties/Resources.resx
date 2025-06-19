@@ -130,11 +130,17 @@
   <data name="прада" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\прада.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="7118480c670875ba81a787b34cc99ee51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7118480c670875ba81a787b34cc99ee51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ChatGPT_Image_12_черв._2025_р.__13_58_51-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT_Image_12_черв._2025_р.__13_58_51-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="99fa0d0317cea3f28b32fbf55c864c8f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\99fa0d0317cea3f28b32fbf55c864c8f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="версачі" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\версачі.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Знімок_екрана_2025-06-19_160359-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок_екрана_2025-06-19_160359-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2 фото на основну" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2 фото на основну.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,14 +154,11 @@
   <data name="Знімок екрана 2025-06-12 145039" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-06-12 145039.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Знімок_екрана_2025-06-11_140730-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок_екрана_2025-06-11_140730-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="16c22888-3356-4f48-bf51-01771c7224f0-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16c22888-3356-4f48-bf51-01771c7224f0-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Знімок_екрана_2025-06-19_160359-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок_екрана_2025-06-19_160359-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7118480c670875ba81a787b34cc99ee51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7118480c670875ba81a787b34cc99ee51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16c22888-3356-4f48-bf51-01771c7224f0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16c22888-3356-4f48-bf51-01771c7224f0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,20 +166,20 @@
   <data name="4 фото на основну" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4 фото на основну.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="версачі" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\версачі.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Знімок_екрана_2025-06-11_140730-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок_екрана_2025-06-11_140730-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ChatGPT_Image_12_черв._2025_р.__13_58_51-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT_Image_12_черв._2025_р.__13_58_51-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7118480c670875ba81a787b34cc99ee53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7118480c670875ba81a787b34cc99ee53.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Знімок екрана 2025-06-11 140730" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-06-11 140730.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="16c22888-3356-4f48-bf51-01771c7224f0-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16c22888-3356-4f48-bf51-01771c7224f0-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="5 фото на основну" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5 фото на основну.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Знімок екрана 2025-06-18 145153" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-06-18 145153.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Знімок екрана 2025-06-11 140730" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок екрана 2025-06-11 140730.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="7118480c670875ba81a787b34cc99ee5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7118480c670875ba81a787b34cc99ee5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,10 +187,10 @@
   <data name="7118480c670875ba81a787b34cc99ee52" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7118480c670875ba81a787b34cc99ee52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="7118480c670875ba81a787b34cc99ee53" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7118480c670875ba81a787b34cc99ee53.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Знімок екрана 2025-06-18 145153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок екрана 2025-06-18 145153.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Знімок_екрана_2025-06-19_160359-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок_екрана_2025-06-19_160359-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="99fa0d0317cea3f28b32fbf55c864c8f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\99fa0d0317cea3f28b32fbf55c864c8f1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

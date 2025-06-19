@@ -201,7 +201,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { парфумеріяToolStripMenuItem, макіяжToolStripMenuItem, обличчяToolStripMenuItem, волоссяToolStripMenuItem, тілоToolStripMenuItem, здоровяІДоглядToolStripMenuItem, чоловікамToolStripMenuItem, брендиToolStripMenuItem });
             menuStrip1.Location=new Point(0, 140);
             menuStrip1.Name="menuStrip1";
-            menuStrip1.Size=new Size(1099, 40);
+            menuStrip1.Size=new Size(1249, 40);
             menuStrip1.TabIndex=3;
             menuStrip1.Text="menuStrip1";
             // 
@@ -300,20 +300,23 @@
             // попмадаДляГубToolStripMenuItem
             // 
             попмадаДляГубToolStripMenuItem.Name="попмадаДляГубToolStripMenuItem";
-            попмадаДляГубToolStripMenuItem.Size=new Size(319, 28);
+            попмадаДляГубToolStripMenuItem.Size=new Size(312, 28);
             попмадаДляГубToolStripMenuItem.Text="Помада для губ";
+            попмадаДляГубToolStripMenuItem.Click+=попмадаДляГубToolStripMenuItem_Click;
             // 
             // блискДляГубToolStripMenuItem
             // 
             блискДляГубToolStripMenuItem.Name="блискДляГубToolStripMenuItem";
-            блискДляГубToolStripMenuItem.Size=new Size(319, 28);
+            блискДляГубToolStripMenuItem.Size=new Size(312, 28);
             блискДляГубToolStripMenuItem.Text="Блиск для губ";
+            блискДляГубToolStripMenuItem.Click+=блискДляГубToolStripMenuItem_Click;
             // 
             // контурнийОлівецьДляБрівToolStripMenuItem
             // 
             контурнийОлівецьДляБрівToolStripMenuItem.Name="контурнийОлівецьДляБрівToolStripMenuItem";
             контурнийОлівецьДляБрівToolStripMenuItem.Size=new Size(312, 28);
             контурнийОлівецьДляБрівToolStripMenuItem.Text="Контурний олівець для губ";
+            контурнийОлівецьДляБрівToolStripMenuItem.Click+=контурнийОлівецьДляБрівToolStripMenuItem_Click;
             // 
             // обличчяToolStripMenuItem1
             // 

@@ -21,6 +21,9 @@ namespace math_zadach
         int podvod_e = 1;
         int pensil_e = 1;
         int gel_eb = 1;
+        int lip_s = 1;
+        int lip_g = 1;
+        int pensil_l = 1;
         bool womenparfum = false;
         bool menparfum = false;
         bool tini = false;
@@ -28,6 +31,9 @@ namespace math_zadach
         bool podvod = false;
         bool pensil = false;
         bool gel = false;
+        bool lip = false;
+        bool gloss = false;
+        bool pensillip = false;
         bool istrue = true;
         public magaz()
 
@@ -68,6 +74,9 @@ namespace math_zadach
             podvod = false;
             pensil = false;
             gel = false;
+            lip = false;
+            gloss = false;
+            pensillip = false;
             pictureBox_parfum1.Visible = false;
             pictureBox_parfum2.Visible = false;
             pictureBox_parfum3.Visible = false;
@@ -129,6 +138,9 @@ namespace math_zadach
             podvod = false;
             pensil = false;
             gel= false;
+            lip = false;
+            gloss = false;
+            pensillip= false;
         }
 
         private void magaz_Load_1(object sender, EventArgs e)
@@ -480,8 +492,174 @@ namespace math_zadach
                 }
             }
         }
+        private void lip_stick()
+        {
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            if (lip)
+            {
 
+                if (lip_s == 1)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "golden.png");
+                    label_name1.Text = "Golden Rose Longstay";
+                    label_voda1.Text = "Рідка помада для губ";
+                    label_price1.Text = "167 ₴";
 
+                    pictureBox_parfum1.Image = Image.FromFile(path + "kiko lip.png");
+                    label_name2.Text = "Kiko Milano Unlimited";
+                    label_voda2.Text = "Рідка помада для губ";
+                    label_price2.Text = "556 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "esens.png");
+                    label_name3.Text = "Essence 8H Matte Liquid Lipstick";
+                    label_voda3.Text = "Рідка помада для губ";
+                    label_price3.Text = "83 ₴";
+                }
+                else if (lip_s == 2)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "dior lip.png");
+                    label_name1.Text = "Dior Addict Refillable Lipstick";
+                    label_voda1.Text = "Помада для губ";
+                    label_price1.Text = "1713 ₴";
+
+                    pictureBox_parfum1.Image = Image.FromFile(path + "loreal.png");
+                    label_name2.Text = "L'Oreal Paris Color Riche";
+                    label_voda2.Text = "Помада для губ";
+                    label_price2.Text = "440 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "ysl lip.png");
+                    label_name3.Text = "Yves Saint Laurent YSL Loveshine";
+                    label_voda3.Text = "Помада для губ";
+                    label_price3.Text = "2609 ₴";
+                }
+            }
+        }
+        private void lip_gloss()
+        {
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            if (gloss)
+            {
+
+                if (lip_g == 1)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "maybil.png");
+                    label_name1.Text = "Maybelline New York Lifter Gloss";
+                    label_voda1.Text = "Блиск для губ";
+                    label_price1.Text = "420 ₴";
+
+                    pictureBox_parfum1.Image = Image.FromFile(path + "nyxx.png");
+                    label_name2.Text = "NYX Professional Makeup ";
+                    label_voda2.Text = "Блиск-олія для губ";
+                    label_price2.Text = "459 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "rose.png");
+                    label_name3.Text = "Essence 8H Matte Liquid Lipstick";
+                    label_voda3.Text = "Блиск для губ";
+                    label_price3.Text = "83 ₴";
+                }
+                else if (lip_g == 2)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "dair gloss.png");
+                    label_name1.Text = "Dior Addict Lip Maximizer";
+                    label_voda1.Text = "Блиск для губ";
+                    label_price1.Text = "1377 ₴";
+
+                    pictureBox_parfum1.Image = Image.FromFile(path + "lame.png");
+                    label_name2.Text = "Lamel Make Up Dazzle Glow";
+                    label_voda2.Text = "Блиск для губ";
+                    label_price2.Text = "267 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "kikoo.png");
+                    label_name3.Text = "Yves Saint Laurent YSL Loveshine";
+                    label_voda3.Text = "Пом'якшувальний блиск для губ";
+                    label_price3.Text = "582 ₴";
+                }
+            }
+        }
+        private void lip_pensil()
+        {
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            if (pensillip)
+            {
+
+                if (pensil_l== 1)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "meibel.png");
+                    label_name1.Text = "Maybelline New York Color Sensational";
+                    label_voda1.Text = "Автоматичний олівець для губ";
+                    label_price1.Text = "340 ₴";
+
+                    pictureBox_parfum1.Image = Image.FromFile(path + "evel.png");
+                    label_name2.Text = "Eveline Cosmetics Make";
+                    label_voda2.Text = "Автоматичний олівець для губ";
+                    label_price2.Text = "140 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "esen.png");
+                    label_name3.Text = "Essence 8H Matte Comfort Lip Liner";
+                    label_voda3.Text = "Автоматичний олівець для губ";
+                    label_price3.Text = "77 ₴";
+                }
+                else if (pensil_l == 2)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "pupa.png");
+                    label_name1.Text = "Pupa True lips";
+                    label_voda1.Text = "Олівець для губ";
+                    label_price1.Text = "387 ₴";
+
+                    pictureBox_parfum1.Image = Image.FromFile(path + "lor.png");
+                    label_name2.Text = "L'Oreal Paris Color Riche ";
+                    label_voda2.Text = "Олівець для губ";
+                    label_price2.Text = "310 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "dior pensil.png");
+                    label_name3.Text = "Dior Crayon Contour Levres";
+                    label_voda3.Text = "Олівець для губ";
+                    label_price3.Text = "1174 ₴";
+                }
+            }
+        }
 
 
         private void parfum_women()
@@ -547,7 +725,7 @@ namespace math_zadach
             }
 
         }
-        bool showParfum = false;
+        
 
 
         private void button_left_Click(object sender, EventArgs e)
@@ -593,6 +771,24 @@ namespace math_zadach
                 gel_eb--;
                 if (gel_eb < 1) gel_eb = 2;
                 gel_eyebrow();
+            }
+            else if (lip)
+            {
+                lip_s--;
+                if (lip_s < 1) lip_s = 2;
+                lip_stick();
+            }
+            else if (gloss)
+            {
+                lip_g--;
+                if (lip_g < 1) lip_g = 2;
+                lip_gloss();
+            }
+            else if (pensillip)
+            {
+                pensil_l--;
+                if (pensil_l< 1) pensil_l = 2;
+                lip_pensil();
             }
             else
             {
@@ -647,6 +843,24 @@ namespace math_zadach
                 if (gel_eb > 2) gel_eb = 1;
                 gel_eyebrow();
             }
+            else if (lip)
+            {
+                lip_s++;
+                if (lip_s > 2) lip_s = 1;
+                lip_stick();
+            }
+            else if (gloss)
+            {
+                lip_g++;
+                if (lip_g > 2) lip_g = 1;
+                lip_gloss();
+            }
+            else if (pensillip)
+            {
+                pensil_l--;
+                if (pensil_l < 1) pensil_l = 2;
+                lip_pensil();
+            }
             else
             {
                 foto++;
@@ -665,6 +879,9 @@ namespace math_zadach
             podvod = false;
             pensil = false;
             gel = false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -730,6 +947,9 @@ namespace math_zadach
             podvod=false;
             pensil=false;
             gel = false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -760,6 +980,9 @@ namespace math_zadach
             podvod=false;
             pensil = false;
             gel = false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -790,6 +1013,9 @@ namespace math_zadach
             podvod=false;
             pensil=false;
             gel=false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -819,7 +1045,10 @@ namespace math_zadach
             tysh = false;
             podvod=true;
             pensil=false;
-            gel=false; 
+            gel=false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -850,6 +1079,9 @@ namespace math_zadach
             podvod=false;
             pensil=true;
             gel=false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -880,6 +1112,9 @@ namespace math_zadach
             podvod=false;
             pensil=false;
             gel=true;
+            lip = false;
+            gloss=false;
+            pensillip= false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -899,6 +1134,103 @@ namespace math_zadach
             button_sale2.Visible = true;
             button_sale3.Visible = true;
             gel_eyebrow();
+        }
+
+        private void попмадаДляГубToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            womenparfum=false;
+            menparfum = false;
+            tini= false;
+            tysh = false;
+            podvod=false;
+            pensil=false;
+            gel=false;
+            lip = true;
+            gloss=false;
+            pensillip= false;
+            pictureBox2.Visible = false;
+            button_detal.Visible = false;
+
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            lip_stick();
+        }
+
+        private void блискДляГубToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            menparfum = false;
+            tini= false;
+            tysh = false;
+            podvod=false;
+            pensil=false;
+            gel=false;
+            lip = false;
+            gloss=true;
+            pensillip= false;
+            pictureBox2.Visible = false;
+            button_detal.Visible = false;
+
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            lip_gloss();
+        }
+
+        private void контурнийОлівецьДляБрівToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            menparfum = false;
+            tini= false;
+            tysh = false;
+            podvod=false;
+            pensil=false;
+            gel=false;
+            lip = false;
+            gloss=false;
+            pensillip= true;
+            pictureBox2.Visible = false;
+            button_detal.Visible = false;
+
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            lip_pensil();
         }
     }
 }

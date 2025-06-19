@@ -201,7 +201,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { парфумеріяToolStripMenuItem, макіяжToolStripMenuItem, обличчяToolStripMenuItem, волоссяToolStripMenuItem, тілоToolStripMenuItem, здоровяІДоглядToolStripMenuItem, чоловікамToolStripMenuItem, брендиToolStripMenuItem });
             menuStrip1.Location=new Point(0, 140);
             menuStrip1.Name="menuStrip1";
-            menuStrip1.Size=new Size(1249, 40);
+            menuStrip1.Size=new Size(1099, 40);
             menuStrip1.TabIndex=3;
             menuStrip1.Text="menuStrip1";
             // 
@@ -242,7 +242,7 @@
             оЧіToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { тушДляВійToolStripMenuItem, тініДляПовікToolStripMenuItem, підводкаДляОчейToolStripMenuItem });
             оЧіToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             оЧіToolStripMenuItem.Name="оЧіToolStripMenuItem";
-            оЧіToolStripMenuItem.Size=new Size(224, 28);
+            оЧіToolStripMenuItem.Size=new Size(170, 28);
             оЧіToolStripMenuItem.Text="Очі";
             // 
             // тушДляВійToolStripMenuItem
@@ -271,7 +271,7 @@
             бровиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { олівецьДляБрівToolStripMenuItem, гельДляБрівToolStripMenuItem });
             бровиToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             бровиToolStripMenuItem.Name="бровиToolStripMenuItem";
-            бровиToolStripMenuItem.Size=new Size(224, 28);
+            бровиToolStripMenuItem.Size=new Size(170, 28);
             бровиToolStripMenuItem.Text="Брови";
             бровиToolStripMenuItem.Click+=бровиToolStripMenuItem_Click;
             // 
@@ -294,7 +294,7 @@
             губиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { попмадаДляГубToolStripMenuItem, блискДляГубToolStripMenuItem, контурнийОлівецьДляБрівToolStripMenuItem });
             губиToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             губиToolStripMenuItem.Name="губиToolStripMenuItem";
-            губиToolStripMenuItem.Size=new Size(224, 28);
+            губиToolStripMenuItem.Size=new Size(170, 28);
             губиToolStripMenuItem.Text="Губи";
             // 
             // попмадаДляГубToolStripMenuItem
@@ -323,7 +323,7 @@
             обличчяToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { руянаToolStripMenuItem, бронзерToolStripMenuItem, хайлайтерToolStripMenuItem, консилерToolStripMenuItem, пудраДляОблмччяToolStripMenuItem, тональнийКремToolStripMenuItem });
             обличчяToolStripMenuItem1.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             обличчяToolStripMenuItem1.Name="обличчяToolStripMenuItem1";
-            обличчяToolStripMenuItem1.Size=new Size(224, 28);
+            обличчяToolStripMenuItem1.Size=new Size(170, 28);
             обличчяToolStripMenuItem1.Text="Обличчя";
             // 
             // руянаToolStripMenuItem
@@ -331,42 +331,48 @@
             руянаToolStripMenuItem.Name="руянаToolStripMenuItem";
             руянаToolStripMenuItem.Size=new Size(252, 28);
             руянаToolStripMenuItem.Text="Рум'яна";
+            руянаToolStripMenuItem.Click+=руянаToolStripMenuItem_Click;
             // 
             // бронзерToolStripMenuItem
             // 
             бронзерToolStripMenuItem.Name="бронзерToolStripMenuItem";
             бронзерToolStripMenuItem.Size=new Size(252, 28);
             бронзерToolStripMenuItem.Text="Бронзер";
+            бронзерToolStripMenuItem.Click+=бронзерToolStripMenuItem_Click;
             // 
             // хайлайтерToolStripMenuItem
             // 
             хайлайтерToolStripMenuItem.Name="хайлайтерToolStripMenuItem";
             хайлайтерToolStripMenuItem.Size=new Size(252, 28);
             хайлайтерToolStripMenuItem.Text="Хайлайтер";
+            хайлайтерToolStripMenuItem.Click+=хайлайтерToolStripMenuItem_Click;
             // 
             // консилерToolStripMenuItem
             // 
             консилерToolStripMenuItem.Name="консилерToolStripMenuItem";
             консилерToolStripMenuItem.Size=new Size(252, 28);
             консилерToolStripMenuItem.Text="Консилер";
+            консилерToolStripMenuItem.Click+=консилерToolStripMenuItem_Click;
             // 
             // пудраДляОблмччяToolStripMenuItem
             // 
             пудраДляОблмччяToolStripMenuItem.Name="пудраДляОблмччяToolStripMenuItem";
             пудраДляОблмччяToolStripMenuItem.Size=new Size(252, 28);
             пудраДляОблмччяToolStripMenuItem.Text="Пудра для обличчя";
+            пудраДляОблмччяToolStripMenuItem.Click+=пудраДляОблмччяToolStripMenuItem_Click;
             // 
             // тональнийКремToolStripMenuItem
             // 
             тональнийКремToolStripMenuItem.Name="тональнийКремToolStripMenuItem";
             тональнийКремToolStripMenuItem.Size=new Size(252, 28);
             тональнийКремToolStripMenuItem.Text="Тональний крем";
+            тональнийКремToolStripMenuItem.Click+=тональнийКремToolStripMenuItem_Click;
             // 
             // пензліToolStripMenuItem
             // 
             пензліToolStripMenuItem.Font=new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             пензліToolStripMenuItem.Name="пензліToolStripMenuItem";
-            пензліToolStripMenuItem.Size=new Size(224, 28);
+            пензліToolStripMenuItem.Size=new Size(170, 28);
             пензліToolStripMenuItem.Text="Пензлі";
             // 
             // обличчяToolStripMenuItem
@@ -1140,7 +1146,8 @@
             Controls.Add(menuStrip1);
             Controls.Add(pictureBox1);
             Name="magaz";
-            Text="magaz";
+            Text="Flaire";
+            FormClosing+=magaz_FormClosing;
             Load+=magaz_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             menuStrip1.ResumeLayout(false);

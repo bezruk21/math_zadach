@@ -109,7 +109,9 @@
             // label1
             // 
             label1.AutoSize=true;
+            label1.BackColor=Color.Transparent;
             label1.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
+            label1.ForeColor=SystemColors.ControlText;
             label1.Location=new Point(57, 137);
             label1.Name="label1";
             label1.Size=new Size(279, 23);
@@ -141,6 +143,7 @@
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
             BackColor=Color.Azure;
+            BackgroundImage=Properties.Resources._7118480c670875ba81a787b34cc99ee52;
             ClientSize=new Size(1010, 565);
             Controls.Add(listBox1);
             Controls.Add(textBox_dani);
@@ -148,7 +151,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip=menuStrip1;
             Name="zd_3";
-            Text="zd_3";
+            Text="Завдання 3";
             FormClosing+=zd_3_FormClosing;
             Load+=zd_3_Load;
             menuStrip1.ResumeLayout(false);

@@ -102,6 +102,7 @@
             // radioButton_area
             // 
             radioButton_area.AutoSize=true;
+            radioButton_area.BackColor=Color.Transparent;
             radioButton_area.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             radioButton_area.Location=new Point(166, 32);
             radioButton_area.Name="radioButton_area";
@@ -109,12 +110,13 @@
             radioButton_area.TabIndex=6;
             radioButton_area.TabStop=true;
             radioButton_area.Text="Площа круга ";
-            radioButton_area.UseVisualStyleBackColor=true;
+            radioButton_area.UseVisualStyleBackColor=false;
             radioButton_area.CheckedChanged+=radioButton_area_CheckedChanged;
             // 
             // radioButton_volume
             // 
             radioButton_volume.AutoSize=true;
+            radioButton_volume.BackColor=Color.Transparent;
             radioButton_volume.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             radioButton_volume.Location=new Point(166, 85);
             radioButton_volume.Name="radioButton_volume";
@@ -122,12 +124,13 @@
             radioButton_volume.TabIndex=7;
             radioButton_volume.TabStop=true;
             radioButton_volume.Text="Об'єм прямокутного паралелепіпета";
-            radioButton_volume.UseVisualStyleBackColor=true;
+            radioButton_volume.UseVisualStyleBackColor=false;
             radioButton_volume.CheckedChanged+=radioButton_volume_CheckedChanged;
             // 
             // radioButton_perimeter
             // 
             radioButton_perimeter.AutoSize=true;
+            radioButton_perimeter.BackColor=Color.Transparent;
             radioButton_perimeter.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             radioButton_perimeter.Location=new Point(166, 138);
             radioButton_perimeter.Name="radioButton_perimeter";
@@ -135,7 +138,7 @@
             radioButton_perimeter.TabIndex=8;
             radioButton_perimeter.TabStop=true;
             radioButton_perimeter.Text="Периметр прямокутника";
-            radioButton_perimeter.UseVisualStyleBackColor=true;
+            radioButton_perimeter.UseVisualStyleBackColor=false;
             radioButton_perimeter.CheckedChanged+=radioButton_perimeter_CheckedChanged;
             // 
             // listBox_output
@@ -151,7 +154,7 @@
             // 
             // button_count
             // 
-            button_count.BackColor=Color.SteelBlue;
+            button_count.BackColor=Color.SkyBlue;
             button_count.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             button_count.Location=new Point(12, 339);
             button_count.Name="button_count";
@@ -163,7 +166,7 @@
             // 
             // button2
             // 
-            button2.BackColor=Color.SteelBlue;
+            button2.BackColor=Color.SkyBlue;
             button2.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             button2.Location=new Point(310, 339);
             button2.Name="button2";
@@ -175,7 +178,7 @@
             // 
             // button_return
             // 
-            button_return.BackColor=Color.SteelBlue;
+            button_return.BackColor=Color.SkyBlue;
             button_return.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             button_return.Location=new Point(580, 339);
             button_return.Name="button_return";
@@ -201,6 +204,7 @@
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
             BackColor=Color.AliceBlue;
+            BackgroundImage=Properties.Resources._7118480c670875ba81a787b34cc99ee5;
             ClientSize=new Size(750, 450);
             Controls.Add(listBox_result);
             Controls.Add(button_return);
@@ -217,7 +221,7 @@
             Controls.Add(label_a);
             Controls.Add(label_radius);
             Name="zd_1cs";
-            Text="zd_1cs";
+            Text="Завдання 1";
             ResumeLayout(false);
             PerformLayout();
         }

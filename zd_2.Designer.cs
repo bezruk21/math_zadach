@@ -147,6 +147,7 @@
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
             BackColor=Color.Azure;
+            BackgroundImage=Properties.Resources._7118480c670875ba81a787b34cc99ee51;
             ClientSize=new Size(479, 399);
             Controls.Add(listBox_output);
             Controls.Add(textBox3);
@@ -158,7 +159,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip=menuStrip1;
             Name="zd_2";
-            Text="zd_2";
+            Text="Завдання 2";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

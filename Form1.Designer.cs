@@ -99,7 +99,7 @@
             // label1
             // 
             label1.AutoSize=true;
-            label1.Location=new Point(458, 374);
+            label1.Location=new Point(426, 374);
             label1.Name="label1";
             label1.Size=new Size(72, 20);
             label1.TabIndex=5;
@@ -110,6 +110,7 @@
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
             BackColor=Color.SeaShell;
+            BackgroundImage=Properties.Resources._99fa0d0317cea3f28b32fbf55c864c8f;
             ClientSize=new Size(537, 403);
             Controls.Add(label1);
             Controls.Add(button5);

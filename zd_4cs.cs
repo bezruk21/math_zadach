@@ -16,6 +16,11 @@ namespace math_zadach
         {
             int rows = (int)numericUpDown_line.Value;
             int cols = (int)numericUpDown_column.Value;
+            if (rows == 0 || cols == 0)
+            {
+                MessageBox.Show("Кількість рядків і стовпців має бути більшою за нуль.");
+                return;
+            }
 
             if (rows != cols)
             {
@@ -115,11 +120,15 @@ namespace math_zadach
 
         private void zd_4cs_FormClosing(object sender, FormClosingEventArgs e)
         {
-            exit form = new exit();
-            if (form.ShowDialog() == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
+
+        }
+
+        private void записатиВФайлToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void вивестиЗФайлуToolStripMenuItem_Click(object sender, EventArgs e)
+        {
         }
     }
 }

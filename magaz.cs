@@ -24,6 +24,9 @@ namespace math_zadach
         int lip_s = 1;
         int lip_g = 1;
         int pensil_l = 1;
+        int brush_f = 1;
+        int bronzer_f = 1;
+
         bool womenparfum = false;
         bool menparfum = false;
         bool tini = false;
@@ -34,6 +37,8 @@ namespace math_zadach
         bool lip = false;
         bool gloss = false;
         bool pensillip = false;
+        bool brush = false;
+        bool bronzer = false;
         bool istrue = true;
         public magaz()
 
@@ -77,6 +82,8 @@ namespace math_zadach
             lip = false;
             gloss = false;
             pensillip = false;
+            brush=false;
+            bronzer = false;
             pictureBox_parfum1.Visible = false;
             pictureBox_parfum2.Visible = false;
             pictureBox_parfum3.Visible = false;
@@ -141,6 +148,8 @@ namespace math_zadach
             lip = false;
             gloss = false;
             pensillip= false;
+            brush = false;
+            bronzer = false;
         }
 
         private void magaz_Load_1(object sender, EventArgs e)
@@ -660,8 +669,62 @@ namespace math_zadach
                 }
             }
         }
+        private void brush_face()
+        {
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            if (brush)
+            {
 
+                if (brush_f== 1)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "dior brush.png");
+                    label_name1.Text = "Dior Backstage Rosy Glow Blusher";
+                    label_voda1.Text = "Рум'яна для обличчя";
+                    label_price1.Text = "1500 ₴";
 
+                    pictureBox_parfum1.Image = Image.FromFile(path + "ees.png");
+                    label_name2.Text = "Essence Blush Crush!";
+                    label_voda2.Text = "Рум'яна для обличчя";
+                    label_price2.Text = "116 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "kyle.png");
+                    label_name3.Text = "Kylie Cosmetics Pressed Blush Powder";
+                    label_voda3.Text = "Рум'яна для обличчя";
+                    label_price3.Text = "1081 ₴";
+                }
+                else if (brush_f == 2)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "mimili.png");
+                    label_name1.Text = "Maybelline New York Cheek Heat";
+                    label_voda1.Text = "Кремові рум'яна для обличчя";
+                    label_price1.Text = "330 ₴";
+
+                    pictureBox_parfum1.Image = Image.FromFile(path + "rhode.png");
+                    label_name2.Text = "Rhode Pocket Blush";
+                    label_voda2.Text = "Кремові рум'яна для обличчя";
+                    label_price2.Text = "1262 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "lam.png");
+                    label_name3.Text = "LAMEL Make Up BB Blush";
+                    label_voda3.Text = "Кремові рум'яна для обличчя";
+                    label_price3.Text = "131 ₴";
+                }
+            }
+        }
         private void parfum_women()
         {
             pictureBox_parfum1.Visible = true;
@@ -725,7 +788,62 @@ namespace math_zadach
             }
 
         }
-        
+        private void bronzer_face()
+        {
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            if (bronzer)
+            {
+
+                if (bronzer_f== 1)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "kiko bronzer.png");
+                    label_name1.Text = "Kiko Milano Silky Glow Baked";
+                    label_voda1.Text = "Компактна пудра-бронзер";
+                    label_price1.Text = "927 ₴";
+
+                    pictureBox_parfum1.Image = Image.FromFile(path + "ysl bronzer.png");
+                    label_name2.Text = "Yves Saint Laurent All Hours";
+                    label_voda2.Text = "Компактна пудра-бронзер";
+                    label_price2.Text = "3200 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "kylie.png");
+                    label_name3.Text = "Kylie Cosmetics Pressed";
+                    label_voda3.Text = "Компактна пудра-бронзер";
+                    label_price3.Text = "1081 ₴";
+                }
+                else if (bronzer_f == 2)
+                {
+                    pictureBox_parfum2.Image = Image.FromFile(path + "evelin.png");
+                    label_name1.Text = "Eveline Cosmetics Wonder Match";
+                    label_voda1.Text = "Кремовий бронзер для обличчя";
+                    label_price1.Text = "208 ₴";
+
+                    pictureBox_parfum1.Image = Image.FromFile(path + "sheglam.png");
+                    label_name2.Text = "Sheglam Sun Sculpt Liquid";
+                    label_voda2.Text = "Кремовий бронзер для обличчя";
+                    label_price2.Text = "442 ₴";
+
+                    pictureBox_parfum3.Image = Image.FromFile(path + "dior bronz.png");
+                    label_name3.Text = "Dior Forever Skin Contour Stick";
+                    label_voda3.Text = "Стік для бронзування обличчя";
+                    label_price3.Text = "2117 ₴";
+                }
+            }
+        }
 
 
         private void button_left_Click(object sender, EventArgs e)
@@ -789,6 +907,18 @@ namespace math_zadach
                 pensil_l--;
                 if (pensil_l< 1) pensil_l = 2;
                 lip_pensil();
+            }
+            else if (brush)
+            {
+                brush_f--;
+                if (brush_f< 1) brush_f = 2;
+                lip_pensil();
+            }
+            else if (bronzer)
+            {
+                bronzer_f--;
+                if (bronzer_f < 1) bronzer_f = 2;
+                bronzer_face();
             }
             else
             {
@@ -861,6 +991,18 @@ namespace math_zadach
                 if (pensil_l < 1) pensil_l = 2;
                 lip_pensil();
             }
+            else if (brush)
+            {
+                brush_f++;
+                if (brush_f > 2) brush_f = 1;
+                brush_face();
+            }
+            else if (bronzer)
+            {
+                bronzer_f++;
+                if (bronzer_f > 2) bronzer_f = 1;
+                bronzer_face();
+            }
             else
             {
                 foto++;
@@ -868,39 +1010,6 @@ namespace math_zadach
                 istrue = (foto == 1);
                 show_foto();
             }
-        }
-
-        private void жіночаПарфумеріяToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            womenparfum=true;
-            menparfum = false;
-            tini = false;
-            tysh = false;
-            podvod = false;
-            pensil = false;
-            gel = false;
-            lip = false;
-            gloss=false;
-            pensillip= false;
-            pictureBox2.Visible = false;
-            button_detal.Visible = false;
-
-            pictureBox_parfum1.Visible = true;
-            pictureBox_parfum2.Visible = true;
-            pictureBox_parfum3.Visible = true;
-            label_name1.Visible = true;
-            label_name2.Visible = true;
-            label_name3.Visible = true;
-            label_voda1.Visible = true;
-            label_voda2.Visible = true;
-            label_voda3.Visible = true;
-            label_price1.Visible = true;
-            label_price2.Visible = true;
-            label_price3.Visible = true;
-            button_sale1.Visible = true;
-            button_sale2.Visible = true;
-            button_sale3.Visible = true;
-            parfum_women();
         }
 
         private void pictureBox_parfum2_Click(object sender, EventArgs e)
@@ -938,6 +1047,43 @@ namespace math_zadach
             MessageBox.Show("Поки купити неможливо", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        private void жіночаПарфумеріяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            womenparfum=true;
+            menparfum = false;
+            tini = false;
+            tysh = false;
+            podvod = false;
+            pensil = false;
+            gel = false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
+            brush=false;
+            bronzer=false;
+            pictureBox2.Visible = false;
+            button_detal.Visible = false;
+
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            parfum_women();
+        }
+
+
+
         private void чоловічаПарфумеріяToolStripMenuItem_Click(object sender, EventArgs e)
         {
             womenparfum=false;
@@ -950,6 +1096,8 @@ namespace math_zadach
             lip = false;
             gloss=false;
             pensillip= false;
+            brush=false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -982,7 +1130,9 @@ namespace math_zadach
             gel = false;
             lip = false;
             gloss=false;
+            brush=false;
             pensillip= false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -1016,6 +1166,8 @@ namespace math_zadach
             lip = false;
             gloss=false;
             pensillip= false;
+            brush=false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -1049,6 +1201,8 @@ namespace math_zadach
             lip = false;
             gloss=false;
             pensillip= false;
+            brush=false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -1082,6 +1236,8 @@ namespace math_zadach
             lip = false;
             gloss=false;
             pensillip= false;
+            brush=false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -1115,6 +1271,8 @@ namespace math_zadach
             lip = false;
             gloss=false;
             pensillip= false;
+            brush=false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -1148,6 +1306,8 @@ namespace math_zadach
             lip = true;
             gloss=false;
             pensillip= false;
+            brush=false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -1180,6 +1340,8 @@ namespace math_zadach
             lip = false;
             gloss=true;
             pensillip= false;
+            brush=false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -1212,6 +1374,8 @@ namespace math_zadach
             lip = false;
             gloss=false;
             pensillip= true;
+            brush=false;
+            bronzer=false;
             pictureBox2.Visible = false;
             button_detal.Visible = false;
 
@@ -1231,6 +1395,104 @@ namespace math_zadach
             button_sale2.Visible = true;
             button_sale3.Visible = true;
             lip_pensil();
+        }
+
+        private void руянаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            menparfum = false;
+            tini= false;
+            tysh = false;
+            podvod=false;
+            pensil=false;
+            gel=false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
+            brush=true;
+            bronzer=false;
+            pictureBox2.Visible = false;
+            button_detal.Visible = false;
+
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            brush_face();
+
+        }
+
+        private void бронзерToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            menparfum = false;
+            tini= false;
+            tysh = false;
+            podvod=false;
+            pensil=false;
+            gel=false;
+            lip = false;
+            gloss=false;
+            pensillip= false;
+            brush=false;
+            bronzer=true;
+            pictureBox2.Visible = false;
+            button_detal.Visible = false;
+
+            pictureBox_parfum1.Visible = true;
+            pictureBox_parfum2.Visible = true;
+            pictureBox_parfum3.Visible = true;
+            label_name1.Visible = true;
+            label_name2.Visible = true;
+            label_name3.Visible = true;
+            label_voda1.Visible = true;
+            label_voda2.Visible = true;
+            label_voda3.Visible = true;
+            label_price1.Visible = true;
+            label_price2.Visible = true;
+            label_price3.Visible = true;
+            button_sale1.Visible = true;
+            button_sale2.Visible = true;
+            button_sale3.Visible = true;
+            bronzer_face();
+        }
+
+        private void хайлайтерToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void консилерToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void пудраДляОблмччяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void тональнийКремToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void magaz_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            exit form = new exit();
+            if (form.ShowDialog() == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

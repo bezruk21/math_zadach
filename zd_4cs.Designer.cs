@@ -49,6 +49,7 @@
             // label1
             // 
             label1.AutoSize=true;
+            label1.BackColor=Color.Transparent;
             label1.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label1.Location=new Point(17, 61);
             label1.Name="label1";
@@ -59,6 +60,7 @@
             // label2
             // 
             label2.AutoSize=true;
+            label2.BackColor=Color.Transparent;
             label2.Font=new Font("Segoe UI", 10.2F, FontStyle.Bold|FontStyle.Italic, GraphicsUnit.Point);
             label2.Location=new Point(17, 153);
             label2.Name="label2";
@@ -90,7 +92,7 @@
             listBox_rezult.ItemHeight=23;
             listBox_rezult.Location=new Point(299, 61);
             listBox_rezult.Name="listBox_rezult";
-            listBox_rezult.Size=new Size(526, 142);
+            listBox_rezult.Size=new Size(503, 142);
             listBox_rezult.TabIndex=4;
             listBox_rezult.SelectedIndexChanged+=listBox_rezult_SelectedIndexChanged;
             // 
@@ -101,7 +103,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { середнєНаПобічнійДіагоналіToolStripMenuItem, сумаНижчеПобічноїДфагоналіToolStripMenuItem, очиститиToolStripMenuItem, кінецьToolStripMenuItem, додатиРядкиІСтовбціToolStripMenuItem });
             menuStrip1.Location=new Point(0, 0);
             menuStrip1.Name="menuStrip1";
-            menuStrip1.Size=new Size(850, 28);
+            menuStrip1.Size=new Size(829, 28);
             menuStrip1.TabIndex=5;
             menuStrip1.Text="menuStrip1";
             // 
@@ -144,11 +146,11 @@
             // 
             dataGridView1.BackgroundColor=Color.LightSteelBlue;
             dataGridView1.ColumnHeadersHeightSizeMode=DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location=new Point(12, 247);
+            dataGridView1.Location=new Point(12, 250);
             dataGridView1.Name="dataGridView1";
             dataGridView1.RowHeadersWidth=51;
             dataGridView1.RowTemplate.Height=29;
-            dataGridView1.Size=new Size(826, 323);
+            dataGridView1.Size=new Size(790, 323);
             dataGridView1.TabIndex=6;
             dataGridView1.CellContentClick+=dataGridView1_CellContentClick;
             // 
@@ -157,7 +159,8 @@
             AutoScaleDimensions=new SizeF(8F, 20F);
             AutoScaleMode=AutoScaleMode.Font;
             BackColor=Color.Azure;
-            ClientSize=new Size(850, 597);
+            BackgroundImage=Properties.Resources._7118480c670875ba81a787b34cc99ee53;
+            ClientSize=new Size(829, 597);
             Controls.Add(dataGridView1);
             Controls.Add(listBox_rezult);
             Controls.Add(numericUpDown_column);
@@ -167,7 +170,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip=menuStrip1;
             Name="zd_4cs";
-            Text="zd_4cs";
+            Text="Завдання 2";
             FormClosing+=zd_4cs_FormClosing;
             Load+=zd_4cs_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown_line).EndInit();
